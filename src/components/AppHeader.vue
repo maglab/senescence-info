@@ -7,17 +7,17 @@
                         <img src="./../assets/logo.png" alt="App Logo">
                     </div>
                 </li>  
-                <li class="header-link">
+                <li class="header-link d-none d-sm-block">
                     <a href="">Home</a>
                 </li>
-                <li class="header-link">
+                <li class="header-link d-none d-sm-block">
                     <a href="">About</a>
                 </li>
-                <li class="header-link">
+                <li class="header-link d-none d-sm-block">
                     <a href="">Contact</a>
                 </li>
             </ul>
-            <ul class="header-links navigation-links-end">
+            <ul class="header-links navigation-links-end d-none d-sm-flex">
                 <li class="header-link">
                     <button class="btn btn-info">Login</button>
                 </li>

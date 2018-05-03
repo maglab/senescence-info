@@ -12,7 +12,7 @@
           <input type="password" class="form-control" v-model="user.password" placeholder="Password">
         </div>
         <div class="form-group">
-          <label>Confirm Password</label>
+          <label>Confirm password</label>
           <input type="password" class="form-control" v-model="user.confirm_password" placeholder="Confirm Password">
         </div>
         <button type="button" class="btn btn-info" v-on:keyup.enter="register" v-on:click="register()">Register</button>

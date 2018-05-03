@@ -14,6 +14,10 @@
         <button type="button" class="btn btn-info" v-on:click="login()">Login</button>
         <br><br>
         <div>
+          <router-link to="/forgot-password">Forgot password?</router-link>
+        </div>
+        <hr>
+        <div>
           <router-link to="/register">New user? Register</router-link>
         </div>
       </form>
