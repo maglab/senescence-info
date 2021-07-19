@@ -1,5 +1,10 @@
-# vue-seed
-Vue.js seed project with routing and basic app structure setup
+# senescence-info
+Senescence.info website rewritten using Vuejs
 
 ### Description
-The purpose of this app is the be used as a starting template for vue.js projects
+This website is a resource for those interested in learning about senescence and ageing
+
+### Development
+
+1.`npm install` </br>
+2.`npm run serve`

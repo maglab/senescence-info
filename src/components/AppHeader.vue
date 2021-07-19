@@ -1,32 +1,63 @@
 <template>
+  <div class="hello">
+    <img alt="DNA Logo" src="../assets/dnaLogo.png">
+    <h1>Welcome to Senescence.info!</h1>
     <div>
-        <header class="app-header">
-            <ul class="header-links navigation-links">
-                <li class="header-link">
-                    <div class="app-header-logo">
-                        <img src="./../assets/logo.png" alt="App Logo">
-                    </div>
-                </li>  
-                <li class="header-link d-none d-sm-block">
-                    <a href="">Home</a>
-                </li>
-                <li class="header-link d-none d-sm-block">
-                    <a href="">About</a>
-                </li>
-                <li class="header-link d-none d-sm-block">
-                    <a href="">Contact</a>
-                </li>
-            </ul>
-            <ul class="header-links navigation-links-end d-none d-sm-flex">
-                <li class="header-link">
-                    <button class="btn btn-info">Login</button>
-                </li>
-                <li class="header-link">
-                    <button class="btn btn-success">Signup</button>
-                </li>
-            </ul>
-        </header>
+      <b-navbar type="light" variant="light">
+        <b-navbar-nav>
+          <b-nav-item><router-link to="/home">Home</router-link></b-nav-item>
+
+          <!-- Navbar dropdowns -->
+          <b-nav-item-dropdown text="About" >
+            <b-dropdown-item><router-link to="/vision">A Vision for senescence.info</router-link></b-dropdown-item>
+<!--            <b-dropdown-item href="http://jp.senescence.info/">Author Information</b-dropdown-item>-->
+            <b-dropdown-item><router-link to="/disclaimer">Disclaimer, Copyright and Citation</router-link></b-dropdown-item>
+            <b-dropdown-item href="links">External Links</b-dropdown-item>
+          </b-nav-item-dropdown>
+
+          <b-nav-item-dropdown text="Introduction" >
+            <b-dropdown-item href="#tomorrow">The Grandparents of Tomorrow</b-dropdown-item>
+            <b-dropdown-item href="#">Anti-Ageing Medicine</b-dropdown-item>
+            <b-dropdown-item href="#">Should we Cure Ageing?</b-dropdown-item>
+            <b-dropdown-item href="#">How to Become a Biogerontologist</b-dropdown-item>
+            <b-dropdown-item href="#">Biology of Ageing Books</b-dropdown-item>
+          </b-nav-item-dropdown>
+          <b-nav-item-dropdown text="Biology of Ageing" >
+            <b-dropdown-item href="#tomorrow">What is Ageing?</b-dropdown-item>
+            <b-dropdown-item href="#">Animals and Ageing</b-dropdown-item>
+            <b-dropdown-item href="#">The Evolutionary Theory of Ageing</b-dropdown-item>
+            <b-dropdown-item href="#">Human Ageing Model Systems</b-dropdown-item>
+            <b-dropdown-item href="#">Is Ageing Genetic or is it Wear and Tear?</b-dropdown-item>
+            <b-dropdown-item href="#tomorrow">Why do we Age?</b-dropdown-item>
+            <b-dropdown-item href="#">Anti-Ageing Medicine</b-dropdown-item>
+            <b-dropdown-item href="#">Should we Cure Ageing?</b-dropdown-item>
+            <!--            <b-dropdown-item href="#">Curing Ageing and the Science of Immorality</b-dropdown-item>-->
+            <!--&lt;!&ndash;            <b-dropdown-item href="#">Godseed</b-dropdown-item> too much on this menu!&ndash;&gt;-->
+
+          </b-nav-item-dropdown>
+          <b-nav-item-dropdown text="Genomics" >
+            <b-dropdown-item href="#tomorrow">GenAge</b-dropdown-item>
+            <b-dropdown-item href="#">CellAge</b-dropdown-item>
+            <b-dropdown-item href="#">DrugAge</b-dropdown-item>
+            <b-dropdown-item href="#">AnAge</b-dropdown-item>
+            <b-dropdown-item href="#">GenDR?</b-dropdown-item>
+            <b-dropdown-item href="#tomorrow">LongevityMap</b-dropdown-item>
+            <b-dropdown-item href="#tomorrow">Digital Ageing Atlas</b-dropdown-item>
+          </b-nav-item-dropdown>
+          <b-nav-item-dropdown text="Global Perspective">
+            <b-dropdown-item href="#tomorrow">How to Help Fight Ageing</b-dropdown-item>
+            <b-dropdown-item href="#">Immortality and Society</b-dropdown-item>
+            <b-dropdown-item href="#">Gloassary</b-dropdown-item>
+            <b-dropdown-item href="#">Bibliogrpahy</b-dropdown-item>
+            <b-dropdown-item href="#">Links</b-dropdown-item>
+            <b-dropdown-item href="#tomorrow">Who's Who in Gerontology</b-dropdown-item>
+            <b-dropdown-item href="#tomorrow">Social Media</b-dropdown-item>
+          </b-nav-item-dropdown>
+          <b-nav-item href="/contact">Contact</b-nav-item>
+        </b-navbar-nav>
+      </b-navbar>
     </div>
+  </div>
 </template>
 
 <script>
@@ -36,51 +67,19 @@
 </script>
 
 <style scoped>
-    .app-header {
-        align-items: center;
-        background-color: black;
-        height: 60px;
-        padding: 0 10px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .navigation-links {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .navigation-links-end {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .app-header-logo {
-        justify-self: center;
-    }
-    
-    .app-header-logo img {
-        width: 30px;
-        justify-self: center;
-    }
-
-    .header-links {
-        display: flex;
-        align-items: center;
-    }
-
-    .header-link {
-        list-style-type: none;
-        padding: 0 10px;
-    }
-
-    .header-link a {
-        color: white;
-        text-decoration: none;
-        font-weight: 700;
-    }
-
-    .header-link a:hover {
-        color:dodgerblue;
-    }
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
 </style>
+

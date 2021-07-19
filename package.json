@@ -1,5 +1,5 @@
 {
-  "name": "vue-seed",
+  "name": "senescence-info",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,8 @@
     "bootstrap": "^4.0.0",
     "bootstrap-vue": "^2.0.0-rc.9",
     "vue": "^2.5.13",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuejs-twitter-feed": "^1.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.6",
