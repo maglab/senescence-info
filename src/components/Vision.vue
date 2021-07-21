@@ -1,15 +1,16 @@
 <!--TODO: Make left nav float-->
 <template>
-  <b-container>
+  <b-container fluid="sm">
     <b-row class="text-left">
       <b-col cols="2">
+        <b-card>
         <b-nav vertical class="w-25">
           <b-nav-item @click="goto('fear')">Fearing Death</b-nav-item>
           <b-nav-item @click="goto('immortality')">Immortality</b-nav-item>
           <b-nav-item @click="goto('purpose')">Purpose</b-nav-item>
 <!--          <b-nav-item @click="goto('senescence')">Senescence.info</b-nav-item>-->
         </b-nav>
-        <!--        <TwitterFeed data-tweet-limit="3" src="https://twitter.com/jpsenescence"></TwitterFeed>-->
+        </b-card>
       </b-col>
       <b-col>
         <b-card>
@@ -135,7 +136,6 @@
                                       height="333" border="1"></p>
             <p>May dreams become the future</P></div>
 
-          <hr>
 
 
 

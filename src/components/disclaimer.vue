@@ -1,15 +1,18 @@
 <template>
-  <b-container >
+  <b-container fluid="sm" >
     <b-row class="text-left">
       <b-col cols="2">
+        <b-card>
         <b-nav vertical class="w-25">
           <b-nav-item @click="goto('citation')">Conditions of Use and Citation</b-nav-item>
           <b-nav-item @click="goto('copyright')">Copyright</b-nav-item>
           <b-nav-item @click="goto('disclaimer')">Disclaimer</b-nav-item>
           <b-nav-item @click="goto('privacy')">Privacy Statement</b-nav-item>
         </b-nav>
+        </b-card>
         <!--        <TwitterFeed data-tweet-limit="3" src="https://twitter.com/jpsenescence"></TwitterFeed>-->
       </b-col>
+
       <b-col>
         <blockquote>
           <p align="justify">Please read below the usage conditions, suggested citation, copyright notice, disclaimer and privacy statement associated with <strong>senescence.info</strong>. By using this site it is implied you understand and agree with these conditions.</p>
@@ -60,7 +63,6 @@
 
         <p align="justify">Your IP is recorded when you access <b>senescence.info</b> for security reasons and to obtain user statistics. <b>senescence.info</b> does not use cookies.</p>
         </div>
-        <hr>
       </b-col>
     </b-row>
 

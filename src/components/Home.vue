@@ -1,9 +1,11 @@
 <!--TODO: Make left nav float-->
 <template>
-  <b-container>
+  <b-container fluid="sm">
     <b-row class="text-left">
       <b-col class="text-left" cols="2">
-        <b-nav vertical class="w-25" sticky="true">
+        <div class="fixed">
+        <b-card>
+        <b-nav vertical class="w-25" >
           <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
           <b-nav-item @click="goto('prol')">Prologue</b-nav-item>
           <b-nav-item @click="goto('vist')">Visitor Resources</b-nav-item>
@@ -11,9 +13,11 @@
           <b-nav-item @click="goto('genomics')">Genomics of Ageing</b-nav-item>
           <b-nav-item @click="goto('sphere')">The Global Sphere</b-nav-item>
         </b-nav>
-<!--        <TwitterFeed data-tweet-limit="3" src="https://twitter.com/jpsenescence"></TwitterFeed>-->
+        </b-card>
+        </div>
       </b-col>
       <b-col>
+
         <b-card>
           <blockquote class="blockquote mb-0">
             <p>"The knowledge that every ambition is doomed to frustration at the hands of a skeleton have never
@@ -24,6 +28,12 @@
             </footer>
           </blockquote>
         </b-card>
+<!--        <b-col>-->
+<!--          <TwitterFeed data-tweet-limit="3" src="https://twitter.com/jpsenescence"></TwitterFeed>&ndash;&gt;-->
+
+<!--        </b-col>-->
+
+
         <br>
         <div class="div" ref="intro">
           <h2>Introduction</h2>
@@ -226,10 +236,14 @@
           </blockquote>
         </div>
       </b-col>
+      <b-col cols="3">
+        <TwitterFeed data-tweet-limit="4" src="https://twitter.com/jpsenescence"></TwitterFeed>&ndash;&gt;
+      </b-col>
     </b-row>
 
 
   </b-container>
+
 
 </template>
 
@@ -263,7 +277,9 @@
 <!--  }-->
 <!--</script>-->
 <script>
+import Footer from "./AppFooter";
 export default {
+  components: {Footer},
   methods: {
     goto(refName) {
       var element = this.$refs[refName];

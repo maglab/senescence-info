@@ -2,14 +2,17 @@
   <div id="app">
     <shell></shell>
   </div>
+
 </template>
 
 <script>
 import Shell from './components/Shell.vue'
+import Footer from "./components/AppFooter";
 
 export default {
   name: 'app',
   components: {
+    Footer,
     Shell
   }
 }
