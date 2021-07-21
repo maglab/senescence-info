@@ -1,9 +1,9 @@
 <!--TODO: Make left nav float-->
 <template>
-  <b-container >
+  <b-container>
     <b-row class="text-left">
-      <b-col cols="2">
-        <b-nav vertical class="w-25">
+      <b-col class="text-left" cols="2">
+        <b-nav vertical class="w-25" sticky="true">
           <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
           <b-nav-item @click="goto('prol')">Prologue</b-nav-item>
           <b-nav-item @click="goto('vist')">Visitor Resources</b-nav-item>
@@ -278,6 +278,8 @@ export default {
 h2 {
   padding-top: 30px;
 }
+container {
 
+}
 
 </style>
