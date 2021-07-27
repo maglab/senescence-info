@@ -4,7 +4,7 @@
     <b-row class="text-left">
       <b-col cols="2">
         <b-card>
-        <b-nav vertical class="w-25">
+        <b-nav vertical>
           <b-nav-item @click="goto('fear')">Fearing Death</b-nav-item>
           <b-nav-item @click="goto('immortality')">Immortality</b-nav-item>
           <b-nav-item @click="goto('purpose')">Purpose</b-nav-item>

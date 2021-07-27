@@ -12,13 +12,13 @@
             <b-dropdown-item><router-link to="/vision">A Vision for senescence.info</router-link></b-dropdown-item>
 <!--            <b-dropdown-item href="http://jp.senescence.info/">Author Information</b-dropdown-item>-->
             <b-dropdown-item><router-link to="/disclaimer">Disclaimer, Copyright and Citation</router-link></b-dropdown-item>
-            <b-dropdown-item href="links">External Links</b-dropdown-item>
+            <b-dropdown-item><router-link to="/external-links">External Links</router-link></b-dropdown-item>
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown text="Introduction" >
-            <b-dropdown-item href="#tomorrow">The Grandparents of Tomorrow</b-dropdown-item>
-            <b-dropdown-item href="#">Anti-Ageing Medicine</b-dropdown-item>
-            <b-dropdown-item href="#">Should we Cure Ageing?</b-dropdown-item>
+            <b-dropdown-item><router-link to="/grandparents">The Grandparents of Tomorrow</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to="/anti-ageing-medicine">Anti-Ageing Medicine</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to="/cure-ageing">Should we Cure Ageing?</router-link></b-dropdown-item>
             <b-dropdown-item href="#">How to Become a Biogerontologist</b-dropdown-item>
             <b-dropdown-item href="#">Biology of Ageing Books</b-dropdown-item>
           </b-nav-item-dropdown>

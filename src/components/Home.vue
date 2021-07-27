@@ -5,7 +5,7 @@
       <b-col class="text-left" cols="2">
         <div class="fixed">
         <b-card>
-        <b-nav vertical class="w-25" >
+        <b-nav vertical>
           <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
           <b-nav-item @click="goto('prol')">Prologue</b-nav-item>
           <b-nav-item @click="goto('vist')">Visitor Resources</b-nav-item>

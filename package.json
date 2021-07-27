@@ -10,7 +10,9 @@
   "dependencies": {
     "bootstrap": "^4.0.0",
     "bootstrap-vue": "^2.0.0-rc.9",
+    "sticky-sidebar-v2": "^1.1.0",
     "vue": "^2.5.13",
+    "vue-balloon": "^1.0.20",
     "vue-router": "^3.0.1",
     "vuejs-twitter-feed": "^1.0.1"
   },
@@ -18,6 +20,7 @@
     "@vue/cli-plugin-babel": "^3.0.0-beta.6",
     "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
     "@vue/cli-service": "^3.0.0-beta.6",
+    "vue-sticky-sidebar": "^1.0.5",
     "vue-template-compiler": "^2.5.13"
   },
   "babel": {
