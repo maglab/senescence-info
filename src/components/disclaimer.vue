@@ -21,7 +21,7 @@
 
         </blockquote>
         <div ref="citation">
-          <blockquote><H2>Conditions of Use and Citation</H2></blockquote>
+          <blockquote><h2>Conditions of Use and Citation</h2></blockquote>
 
           <p align="justify"><b>senescence.info</b> is an informational, non-commercial website. You may use its
             contents for non-commercial purposes that classify as "fair use," such as personal, educational, and

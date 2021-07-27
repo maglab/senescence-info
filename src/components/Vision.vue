@@ -30,7 +30,7 @@
 
             <p align="justify"><em>Keywords:</em> anti-aging, biogerontology, dying, immortalist, life-extension,
               mortality, rejuvenation</p></blockquote>
-
+            <hr>
           <!--          <p><IMG src="cross.gif" width="860" height="27" alt="Death is the ultimate prison"></p>-->
           <p align="justify">To say I am afraid to die is an understatement; I am absolutely terrified of death, and I'm
             not embarrassed at all to admit it. The way I am unable to conceive the nothingness that happens after death
