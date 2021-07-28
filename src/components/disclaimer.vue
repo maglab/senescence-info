@@ -2,6 +2,7 @@
   <b-container fluid="sm">
     <b-row class="text-left">
       <b-col cols="2">
+        <div class="sidebar">
         <b-card>
           <b-nav vertical>
             <b-nav-item @click="goto('citation')">Conditions of Use and Citation</b-nav-item>
@@ -10,6 +11,7 @@
             <b-nav-item @click="goto('privacy')">Privacy Statement</b-nav-item>
           </b-nav>
         </b-card>
+        </div>
         <!--        <TwitterFeed data-tweet-limit="3" src="https://twitter.com/jpsenescence"></TwitterFeed>-->
       </b-col>
 
@@ -153,6 +155,11 @@ export default {
 <style>
 h2 {
   padding-top: 30px;
+}
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3%;
 }
 
 

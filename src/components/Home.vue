@@ -3,9 +3,9 @@
   <b-container fluid="sm">
     <b-row class="text-left">
       <b-col class="text-left" cols="2">
-        <div class="fixed">
+        <div class="sidebar">
         <b-card>
-        <b-nav vertical>
+        <b-nav vertical id="navbar">
           <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
           <b-nav-item @click="goto('prol')">Prologue</b-nav-item>
           <b-nav-item @click="goto('vist')">Visitor Resources</b-nav-item>
@@ -237,7 +237,7 @@
         </div>
       </b-col>
       <b-col cols="3">
-        <TwitterFeed data-tweet-limit="4" src="https://twitter.com/jpsenescence"></TwitterFeed>&ndash;&gt;
+        <TwitterFeed data-tweet-limit="4" src="https://twitter.com/jpsenescence"></TwitterFeed>
       </b-col>
     </b-row>
 
@@ -289,13 +289,28 @@ export default {
     }
   }
 };
+
+// window.onscroll = function() {myFunction()};
+//
+// var navbar = document.getElementById("navbar");
+// var sticky = navbar.offsetTop;
+//
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
 </script>
 <style>
 h2 {
   padding-top: 30px;
 }
-container {
-
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3%;
 }
 
 </style>

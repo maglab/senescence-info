@@ -3,7 +3,7 @@
   <b-container fluid="sm">
     <b-row class="text-left">
       <b-col class="text-left" cols="2">
-        <div class="fixed">
+        <div class="sidebar">
           <b-card>
             <b-nav vertical>
               <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
@@ -475,8 +475,10 @@ h2 {
   padding-top: 30px;
 }
 
-container {
-
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3%;
 }
 
 </style>

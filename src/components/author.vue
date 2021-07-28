@@ -3,6 +3,7 @@
   <b-container fluid="sm">
     <b-row class="text-left">
       <b-col cols="2">
+        <div class="sidebar">
         <b-card>
         <b-nav vertical>
           <b-nav-item @click="goto('fear')">Fearing Death</b-nav-item>
@@ -11,6 +12,7 @@
           <!--          <b-nav-item @click="goto('senescence')">Senescence.info</b-nav-item>-->
         </b-nav>
         </b-card>
+        </div>
       </b-col>
       <b-col>
         <b-card>
@@ -170,5 +172,12 @@ export default {
 h2 {
   padding-top: 30px;
 }
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3%;
+}
+
 </style>
 
