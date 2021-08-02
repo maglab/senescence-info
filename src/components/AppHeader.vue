@@ -19,12 +19,13 @@
             <b-dropdown-item><router-link to="/grandparents">The Grandparents of Tomorrow</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/anti-ageing-medicine">Anti-Ageing Medicine</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/cure-ageing">Should we Cure Ageing?</router-link></b-dropdown-item>
-            <b-dropdown-item href="#">How to Become a Biogerontologist</b-dropdown-item>
-            <b-dropdown-item href="#">Biology of Ageing Books</b-dropdown-item>
+            <b-dropdown-item><router-link to="/how-to">How to Become a Biogerontologist</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to="/books">Biology of Ageing Books</router-link></b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item-dropdown text="Biology of Ageing" >
-            <b-dropdown-item href="#tomorrow">What is Ageing?</b-dropdown-item>
-            <b-dropdown-item href="#">Animals and Ageing</b-dropdown-item>
+            <b-dropdown-item><router-link to="/ageing-definition">What is Ageing?</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to="/ageing-animals">Animals and Ageing</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to="/comparative-biology">Comparative Biology of Ageing</router-link></b-dropdown-item>
             <b-dropdown-item href="#">The Evolutionary Theory of Ageing</b-dropdown-item>
             <b-dropdown-item href="#">Human Ageing Model Systems</b-dropdown-item>
             <b-dropdown-item href="#">Is Ageing Genetic or is it Wear and Tear?</b-dropdown-item>
@@ -67,8 +68,9 @@
 </template>
 
 <script>
+    import Books from "./Books";
     export default {
-        
+      components: {Books}
     }
 </script>
 

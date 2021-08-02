@@ -4,12 +4,17 @@ import Home from '../components/Home.vue'
 import Vision from '../components/Vision.vue'
 import ForgotPassword from '../components/ForgotPassword.vue'
 import ResetPassword from '../components/ResetPassword.vue'
-import Author from '../components/author'
-import Disclaimer from '../components/disclaimer'
+import Author from '../components/Author'
+import Disclaimer from '../components/Disclaimer'
 import ExtLinks from '../components/ExtLinks'
 import GrandParents from '../components/GrandParents'
 import AntiAgeing from '../components/AntiAgeing'
 import CureAgeing from '../components/CureAgeing'
+import HowTo from "../components/HowTo";
+import Books from "../components/Books";
+import AgeingDef from "../components/AgeingDef";
+import AgingAnimals from "../components/AgingAnimals";
+import ComparativeBiology from "../components/ComparativeBiology";
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -66,6 +71,31 @@ export default new VueRouter({
       path: '/cure-ageing',
       name: 'CureAgeing',
       component: CureAgeing
+    },
+    {
+      path:'/how-to',
+      name:'HowTo',
+      component: HowTo
+    },
+    {
+      path:'/books',
+      name: 'Books',
+      component: Books
+    },
+    {
+      path:'/ageing-definition',
+      name: 'AgeingDef',
+      component: AgeingDef
+    },
+    {
+      path:'/ageing-animals',
+      name: 'AgeingAnimals',
+      component: AgingAnimals
+    },
+    {
+      path:'/comparative-biology',
+      name: 'ComparativeBiology',
+      component: ComparativeBiology
     },
     { path: '*', redirect: '/home' }
   ]
