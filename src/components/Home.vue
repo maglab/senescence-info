@@ -18,7 +18,7 @@
       </b-col>
       <b-col>
 
-        <b-card>
+        <b-card border-variant="dark" >
           <blockquote class="blockquote mb-0">
             <p>"The knowledge that every ambition is doomed to frustration at the hands of a skeleton have never
               prevented the majority of human beings from behaving as though death were no more than an unfounded

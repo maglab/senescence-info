@@ -4,7 +4,7 @@
     <b-row class="text-left">
       <b-col cols="2">
         <div class="sidebar">
-          <b-card>
+          <b-card >
             <b-nav vertical>
               <b-nav-item @click="goto('fear')">What Is Aging?</b-nav-item>
               <b-nav-item @click="goto('dem')">Demographic Measurements</b-nav-item>

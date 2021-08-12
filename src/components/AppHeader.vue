@@ -1,7 +1,9 @@
 <template>
-  <div class="hello">
-    <img alt="DNA Logo" src="../assets/dnaLogo.png">
-    <h1>Welcome to Senescence.info!</h1>
+  <div class="hello" style="background-color:#071436">
+<!--    <img alt="DNA Logo" src="../assets/hourglass_dna.png" style="width:180px;height:180px;">-->
+    <img alt="DNA Logo" src="../assets/final.png" style="width:415px;height:180px;">
+<!--    <h1>Welcome to Senescence.info!</h1>-->
+<!--    <p>by Dr. João Pedro de Magalhães</p>-->
     <div>
       <b-navbar type="light" variant="light">
         <b-navbar-nav>
@@ -10,7 +12,7 @@
           <!-- Navbar dropdowns -->
           <b-nav-item-dropdown text="About" >
             <b-dropdown-item><router-link to="/vision">A Vision for senescence.info</router-link></b-dropdown-item>
-<!--            <b-dropdown-item href="http://jp.senescence.info/">Author Information</b-dropdown-item>-->
+            <b-dropdown-item href="http://jp.senescence.info/">Author Information</b-dropdown-item>
             <b-dropdown-item><router-link to="/disclaimer">Disclaimer, Copyright and Citation</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/external-links">External Links</router-link></b-dropdown-item>
           </b-nav-item-dropdown>

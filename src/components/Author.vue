@@ -15,13 +15,13 @@
         </div>
       </b-col>
       <b-col>
-        <b-card>
-          <blockquote class="blockquote mb-0">
+        <b-card border-variant="dark">
+
             <p>"The meaningless absurdity of life is the only incontestable knowledge accessible to man."</p>
             <footer class="blockquote-footer">
               Leo Tulsoy
             </footer>
-          </blockquote>
+
         </b-card>
         <br>
         <div class="div" ref="fear">

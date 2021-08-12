@@ -15,7 +15,7 @@
         </div>
       </b-col>
       <b-col>
-        <b-card>
+        <b-card border-variant="dark" >
           <blockquote class="blockquote mb-0">
             <p>"The meaningless absurdity of life is the only incontestable knowledge accessible to man."</p>
             <footer class="blockquote-footer">
