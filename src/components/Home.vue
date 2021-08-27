@@ -5,33 +5,29 @@
       <b-col class="text-left" cols="2">
         <div class="sidebar">
         <b-card>
-        <b-nav vertical id="navbar">
-          <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
-          <b-nav-item @click="goto('prol')">Prologue</b-nav-item>
-          <b-nav-item @click="goto('vist')">Visitor Resources</b-nav-item>
-          <b-nav-item @click="goto('geron')">Gerontology Information</b-nav-item>
-          <b-nav-item @click="goto('genomics')">Genomics of Ageing</b-nav-item>
-          <b-nav-item @click="goto('sphere')">The Global Sphere</b-nav-item>
-        </b-nav>
+                  <b-nav toggleable="sm" vertical id="navbar">
+                    <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
+                    <b-nav-item @click="goto('prol')">Prologue</b-nav-item>
+                    <b-nav-item @click="goto('vist')">Visitor Resources</b-nav-item>
+                    <b-nav-item @click="goto('geron')">Gerontology Information</b-nav-item>
+                    <b-nav-item @click="goto('genomics')">Genomics of Ageing</b-nav-item>
+                    <b-nav-item @click="goto('sphere')">The Global Sphere</b-nav-item>
+                  </b-nav>
         </b-card>
         </div>
       </b-col>
       <b-col>
 
-        <b-card border-variant="dark" >
-          <blockquote class="blockquote mb-0">
+        <b-card class="text-center" >
             <p>"The knowledge that every ambition is doomed to frustration at the hands of a skeleton have never
               prevented the majority of human beings from behaving as though death were no more than an unfounded
               rumor."</p>
             <footer class="blockquote-footer">
               Aldous Huxley
             </footer>
-          </blockquote>
-        </b-card>
-<!--        <b-col>-->
-<!--          <TwitterFeed data-tweet-limit="3" src="https://twitter.com/jpsenescence"></TwitterFeed>&ndash;&gt;-->
 
-<!--        </b-col>-->
+        </b-card>
+
 
 
         <br>
@@ -238,7 +234,7 @@
       </b-col>
       <b-col cols="3">
         <TwitterFeed data-tweet-limit="4" src="https://twitter.com/jpsenescence"></TwitterFeed>
-      </b-col>
+              </b-col>
     </b-row>
 
 

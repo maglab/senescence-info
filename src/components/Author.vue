@@ -4,27 +4,29 @@
     <b-row class="text-left">
       <b-col cols="2">
         <div class="sidebar">
-        <b-card>
-        <b-nav vertical>
-          <b-nav-item @click="goto('fear')">Fearing Death</b-nav-item>
-          <b-nav-item @click="goto('immortality')">Immortality</b-nav-item>
-          <b-nav-item @click="goto('purpose')">Purpose</b-nav-item>
-          <!--          <b-nav-item @click="goto('senescence')">Senescence.info</b-nav-item>-->
-        </b-nav>
-        </b-card>
+          <b-card>
+            <b-nav vertical>
+              <b-nav-item @click="goto('fear')">Fearing Death</b-nav-item>
+              <b-nav-item @click="goto('immortality')">Immortality</b-nav-item>
+              <b-nav-item @click="goto('purpose')">Purpose</b-nav-item>
+              <!--          <b-nav-item @click="goto('senescence')">Senescence.info</b-nav-item>-->
+            </b-nav>
+          </b-card>
         </div>
       </b-col>
       <b-col>
-        <b-card border-variant="dark">
+        <div class="maglabquote">
+          <b-card class="text-center">
 
             <p>"The meaningless absurdity of life is the only incontestable knowledge accessible to man."</p>
             <footer class="blockquote-footer">
               Leo Tulsoy
             </footer>
 
-        </b-card>
+          </b-card>
+        </div>
         <br>
-        <div class="div" ref="fear">
+        <div ref="fear" class="div">
           <h2>Fearing Death and Curing Aging</h2>
           <blockquote><p align="justify">You are going to die. It may take some time, but not too long since most people
             do not live to be 100 and very few live more than 110 years. You, like everyone else, suffer from aging and
@@ -53,17 +55,19 @@
             instead of being ruled by this debilitating disease. I want to cure aging because otherwise I will die.
             Eradicating death must be our purpose. I don't know if I will succeed, but I know I will not quit since to
             quit is to die.</p>
-          <b-card>
-            <blockquote class="blockquote mb-0">
+          <div class='maglabquote'>
+            <b-card class="text-center">
+
               <p>Death is an imposition on the human race, and no longer acceptable."</p>
               <footer class="blockquote-footer">
                 Alan Harrington
               </footer>
-            </blockquote>
-          </b-card>
+
+            </b-card>
+          </div>
         </div>
         <br>
-        <div ref = 'immortality'>
+        <div ref='immortality'>
           <h2>Immortality</h2>
           <p align="justify">Assuming you are lucky enough to live a long life and suffer from aging, chances are your
             future will entail significant pain, frailty and diseases. Chief among concerns of elderly adults are
@@ -78,15 +82,16 @@
                 href="http://pcwww.liv.ac.uk/~aging/">academic career as a gerontologist</a>. I hope my work and ideas
             can be useful for the understanding and control of human aging. As <a href="future_grandparents.html">discussed
               elsewhere</a>, curing aging is a daunting but not impossible task.</P>
+          <div class="maglabquote">
+            <b-card class=text-center>
 
-          <b-card>
-            <blockquote class="blockquote mb-0">
               <p>Obstacles are those frightful things you see when you take your eyes off your goal."</p>
               <footer class="blockquote-footer">
                 Henry Ford
               </footer>
-            </blockquote>
-          </b-card>
+
+            </b-card>
+          </div>
         </div>
         <div ref="purpose">
           <h2>Purpose</h2>
@@ -120,27 +125,25 @@
           <p align="justify">I've been asked before: Why prolong life? I can give a million reasons but I think my
             highest objective is to discover the secrets of this infinite universe. Perhaps it's a dream, but the future
             is made of dreams, and I believe in the beauty of my dreams.</p>
-
-          <b-card>
-            <blockquote class="blockquote mb-0">
+          <div class="maglabquote">
+            <b-card class="text-center">
               <p>"There are three requisites for growth without bound, and only three: the will
                 to remake oneself; the genius to survive; and the strength to suffer."</p>
               <footer class="blockquote-footer">
                 David Zindell
               </footer>
-            </blockquote>
-          </b-card>
+
+            </b-card>
+          </div>
           <br>
         </div>
 
 
-        <div align="center"><p><img src="../assets/vision.jpg" alt="May dreams become the future" width="393"
-                                    height="333" border="1"></p>
+        <div align="center"><p><img alt="May dreams become the future" border="1" height="333"
+                                    src="../assets/vision.jpg" width="393"></p>
           <p>May dreams become the future</P></div>
 
         <hr>
-
-
 
 
       </b-col>
@@ -165,7 +168,6 @@ export default {
   }
 };
 </script>
-
 
 
 <style>

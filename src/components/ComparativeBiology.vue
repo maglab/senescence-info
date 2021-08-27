@@ -31,17 +31,18 @@
 
             <p><em>Keywords:</em> ageing, allometric scaling, allometry of life, evolutionary genomics, life span</p>
           </blockquote>
-
           <hr size="1" width="80%">
-          <b-card border-variant="dark">
-            <blockquote class="blockquote mb-0">
+          <br>
+          <div class = maglabquote>
+          <b-card class="text-center">
+
               <p>"The reasons for some animals being long-lived and others short-lived, and, in a word, causes of the
                 length and brevity of life call for investigation."</p>
               <footer class="blockquote-footer">
                 Aristotle, 350 BC
               </footer>
-            </blockquote>
           </b-card>
+          </div>
           <br>
           <p align="justify">Why cannot a mouse live more than 5 years while humans and whales can live over 100? Why do
             some animals appear not to suffer from aging? In the end, why do different species age at different paces?
@@ -242,6 +243,7 @@ h2 {
   position: sticky;
   top: 3%;
 }
+
 
 </style>
 

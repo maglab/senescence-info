@@ -15,6 +15,12 @@ import Books from "../components/Books";
 import AgeingDef from "../components/AgeingDef";
 import AgingAnimals from "../components/AgingAnimals";
 import ComparativeBiology from "../components/ComparativeBiology";
+import EvolutionAgeing from "../components/EvolutionAgeing";
+import AgeingModels from "../components/AgeingModels";
+import CellAgeing from "../components/CellAgeing";
+import TelomeresTelomerase from "../components/TelomeresTelomerase";
+import AgeingGenetics from "../components/AgeingGenetics";
+import AgeingTheories from "../components/AgeingTheories";
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -96,6 +102,36 @@ export default new VueRouter({
       path:'/comparative-biology',
       name: 'ComparativeBiology',
       component: ComparativeBiology
+    },
+    {
+      path:'/evolution-of-ageing',
+      name: 'EvolutionAgeing',
+      component: EvolutionAgeing
+    },
+    {
+      path:'/ageing-models',
+      name: 'AgeingModels',
+      component: AgeingModels
+    },
+    {
+      path: '/cell-ageing',
+      name: 'CellAgeing',
+      component: CellAgeing
+    },
+    {
+      path: '/telomeres-telomerase',
+      name: 'TelomeresTelomerase',
+      component: TelomeresTelomerase
+    },
+    {
+      path: '/genetics-of-ageing',
+      name: 'AgeingGenetics',
+      component: AgeingGenetics
+    },
+    {
+     path: '/ageing-theories',
+     name: 'AgeingTheories',
+     component: AgeingTheories
     },
     { path: '*', redirect: '/home' }
   ]

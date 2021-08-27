@@ -14,6 +14,7 @@
     "vue": "^2.5.13",
     "vue-balloon": "^1.0.20",
     "vue-router": "^3.0.1",
+    "vue-youtube-embed": "^2.2.2",
     "vuejs-twitter-feed": "^1.0.1"
   },
   "devDependencies": {

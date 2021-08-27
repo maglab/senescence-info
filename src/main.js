@@ -5,6 +5,9 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import TwitterFeed from "vuejs-twitter-feed";
+import VueYouTubeEmbed from 'vue-youtube-embed'
+
+Vue.use(VueYouTubeEmbed)
 Vue.use(TwitterFeed);
 Vue.use(BootstrapVue);
 
