@@ -37,6 +37,8 @@
             <b-dropdown-item><router-link to="/telomeres-telomerase">Telomeres and Telomerase</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/genetics-of-ageing">Is Ageing Genetic or is it Wear and Tear?</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/ageing-theories">Why do we Age?</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to="/causes-of-ageing">Damage-Based Theories</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to="/programmed-ageing">Programmed Theories</router-link></b-dropdown-item>
             <b-dropdown-item href="#">Anti-Ageing Medicine</b-dropdown-item>
             <b-dropdown-item href="#">Should we Cure Ageing?</b-dropdown-item>
             <!--            <b-dropdown-item href="#">Curing Ageing and the Science of Immorality</b-dropdown-item>-->
@@ -56,7 +58,7 @@
             <b-dropdown-item href="#tomorrow">How to Help Fight Ageing</b-dropdown-item>
             <b-dropdown-item href="#">Immortality and Society</b-dropdown-item>
             <b-dropdown-item href="#">Gloassary</b-dropdown-item>
-            <b-dropdown-item href="#">Bibliogrpahy</b-dropdown-item>
+            <b-dropdown-item href="#">Bibliography</b-dropdown-item>
             <b-dropdown-item href="#">Links</b-dropdown-item>
             <b-dropdown-item href="#tomorrow">Who's Who in Gerontology</b-dropdown-item>
             <b-dropdown-item href="#tomorrow">Social Media</b-dropdown-item>

@@ -7,7 +7,7 @@
           <b-card>
             <b-nav vertical>
               <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
-              <b-nav-item @click="goto('class')">Classical Evolutionary Theories of Aging</b-nav-item>
+              <b-nav-item>Damage Based Ageing</b-nav-item>
               <b-nav-item @click="goto('life')">Life History Theory</b-nav-item>
               <b-nav-item @click="goto('empirical')">Empirical Evidence</b-nav-item>
               <b-nav-item @click="goto('unique')">Unique Evolution</b-nav-item>
@@ -26,7 +26,7 @@
         </b-card>
         <br>
 
-          <p><em>Keywords:</em> ageing, causes of aging, genetics, science of aging, why do people age, why we get old</p></blockquote>
+          <p><em>Keywords:</em> ageing, causes of aging, genetics, science of aging, why do people age, why we get old</p>
 
         <hr width="80%" size="1">
 

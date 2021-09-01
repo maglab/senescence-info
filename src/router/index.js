@@ -21,6 +21,8 @@ import CellAgeing from "../components/CellAgeing";
 import TelomeresTelomerase from "../components/TelomeresTelomerase";
 import AgeingGenetics from "../components/AgeingGenetics";
 import AgeingTheories from "../components/AgeingTheories";
+import DamageBased from "../components/DamageBased";
+import ProgrammedTheories from "../components/ProgrammedTheories";
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -132,6 +134,16 @@ export default new VueRouter({
      path: '/ageing-theories',
      name: 'AgeingTheories',
      component: AgeingTheories
+    },
+    {
+      path: '/causes-of-ageing',
+      name: 'DamageBased',
+      component: DamageBased
+    },
+    {
+      path: '/programmed-ageing',
+      name: 'ProgrammedAgeing',
+      component: ProgrammedTheories
     },
     { path: '*', redirect: '/home' }
   ]
