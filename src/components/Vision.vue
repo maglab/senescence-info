@@ -4,7 +4,7 @@
     <b-row class="text-left">
       <b-col cols="2">
         <div class="sidebar">
-        <b-card>
+        <b-card border-variant="light">
         <b-nav vertical>
           <b-nav-item @click="goto('fear')">Fearing Death</b-nav-item>
           <b-nav-item @click="goto('immortality')">Immortality</b-nav-item>
@@ -16,7 +16,7 @@
       </b-col>
       <b-col>
         <div class="maglabquote">
-        <b-card class="text-center">
+          <b-card border-variant="light" class="text-center" >
 
             <p>"The meaningless absurdity of life is the only incontestable knowledge accessible to man."</p>
             <footer class="blockquote-footer">
@@ -56,7 +56,7 @@
             Eradicating death must be our purpose. I don't know if I will succeed, but I know I will not quit since to
             quit is to die.</p>
           <div class="maglabquote">
-          <b-card class="text-center" >
+          <b-card border-variant="light" class="text-center" >
 
               <p>Death is an imposition on the human race, and no longer acceptable."</p>
               <footer class="blockquote-footer">
@@ -83,7 +83,7 @@
             can be useful for the understanding and control of human aging. As <a href="future_grandparents.html">discussed
               elsewhere</a>, curing aging is a daunting but not impossible task.</P>
             <div class="maglabquote">
-            <b-card class="text-center" style="max-width: 50rem;">
+            <b-card border-variant="light" class="text-center" >
 
               <p>Obstacles are those frightful things you see when you take your eyes off your goal."</p>
               <footer class="blockquote-footer">
@@ -126,7 +126,7 @@
             highest objective is to discover the secrets of this infinite universe. Perhaps it's a dream, but the future
             is made of dreams, and I believe in the beauty of my dreams.</p>
           <div class="maglabquote">
-          <b-card class="text-center" style="max-width: 50rem;">
+          <b-card class="text-center" border-variant="light">
 
               <p>"There are three requisites for growth without bound, and only three: the will
                 to remake oneself; the genius to survive; and the strength to suffer."</p>
@@ -185,9 +185,9 @@ h2 {
 
 .maglabquote {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 50rem;
+  /*align-items: ;*/
+  /*justify-content: center;*/
+  max-width: 60rem;
 }
 </style>
 

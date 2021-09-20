@@ -4,7 +4,7 @@
     <b-row class="text-left">
       <b-col class="text-left" cols="2">
         <div class="sidebar">
-        <b-card>
+          <b-card border-variant="light">
                   <b-nav toggleable="sm" vertical id="navbar">
                     <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
                     <b-nav-item @click="goto('prol')">Prologue</b-nav-item>
@@ -18,7 +18,7 @@
       </b-col>
       <b-col>
 
-        <b-card class="text-center" >
+        <b-card border-variant="light" class="text-center" >
             <p>"The knowledge that every ambition is doomed to frustration at the hands of a skeleton have never
               prevented the majority of human beings from behaving as though death were no more than an unfounded
               rumor."</p>

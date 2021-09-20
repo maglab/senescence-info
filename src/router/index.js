@@ -23,6 +23,11 @@ import AgeingGenetics from "../components/AgeingGenetics";
 import AgeingTheories from "../components/AgeingTheories";
 import DamageBased from "../components/DamageBased";
 import ProgrammedTheories from "../components/ProgrammedTheories";
+import CuringAgeing from "../components/CuringAgeing"
+import FightAgeing from "../components/FightAgeing";
+import Immortality from "../components/Immortality";
+import Glossary from "../components/Glossary";
+import Links from "../components/Links";
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -76,7 +81,7 @@ export default new VueRouter({
       component: AntiAgeing
     },
     {
-      path: '/cure-ageing',
+      path: '/physical-immortality-myths',
       name: 'CureAgeing',
       component: CureAgeing
     },
@@ -144,6 +149,31 @@ export default new VueRouter({
       path: '/programmed-ageing',
       name: 'ProgrammedAgeing',
       component: ProgrammedTheories
+    },
+    {
+      path: '/ageing-cure',
+      name: 'CuringAgeing',
+      component: CuringAgeing
+    },
+    {
+      path: '/help-fight-ageing',
+      name: 'FightAgeing',
+      component: FightAgeing
+    },
+    {
+      path: '/immortality-society',
+      name: 'ImmortalitySociety',
+      component: Immortality
+    },
+    {
+      path: '/ageing-glossary',
+      name: 'Glossary',
+      component: Glossary
+    },
+    {
+      path: '/ageing-links',
+      name: 'Links',
+      component: Links
     },
     { path: '*', redirect: '/home' }
   ]

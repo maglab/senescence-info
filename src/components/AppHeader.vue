@@ -23,7 +23,7 @@
           <b-nav-item-dropdown text="Introduction" >
             <b-dropdown-item><router-link to="/grandparents">The Grandparents of Tomorrow</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/anti-ageing-medicine">Anti-Ageing Medicine</router-link></b-dropdown-item>
-            <b-dropdown-item><router-link to="/cure-ageing">Should we Cure Ageing?</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to="/physical-immortality-myths">Should we Cure Ageing?</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/how-to">How to Become a Biogerontologist</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/books">Biology of Ageing Books</router-link></b-dropdown-item>
           </b-nav-item-dropdown>
@@ -39,29 +39,27 @@
             <b-dropdown-item><router-link to="/ageing-theories">Why do we Age?</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/causes-of-ageing">Damage-Based Theories</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/programmed-ageing">Programmed Theories</router-link></b-dropdown-item>
-            <b-dropdown-item href="#">Anti-Ageing Medicine</b-dropdown-item>
-            <b-dropdown-item href="#">Should we Cure Ageing?</b-dropdown-item>
+            <b-dropdown-item><router-link to="/ageing-cure">Curing Ageing</router-link></b-dropdown-item>
             <!--            <b-dropdown-item href="#">Curing Ageing and the Science of Immorality</b-dropdown-item>-->
             <!--&lt;!&ndash;            <b-dropdown-item href="#">Godseed</b-dropdown-item> too much on this menu!&ndash;&gt;-->
 
           </b-nav-item-dropdown>
-          <b-nav-item-dropdown text="Genomics" >
-            <b-dropdown-item href="#tomorrow">GenAge</b-dropdown-item>
-            <b-dropdown-item href="#">CellAge</b-dropdown-item>
-            <b-dropdown-item href="#">DrugAge</b-dropdown-item>
-            <b-dropdown-item href="#">AnAge</b-dropdown-item>
-            <b-dropdown-item href="#">GenDR?</b-dropdown-item>
-            <b-dropdown-item href="#tomorrow">LongevityMap</b-dropdown-item>
-            <b-dropdown-item href="#tomorrow">Digital Ageing Atlas</b-dropdown-item>
-          </b-nav-item-dropdown>
+<!--          <b-nav-item-dropdown text="Genomics" >-->
+<!--            <b-dropdown-item href="#tomorrow">GenAge</b-dropdown-item>-->
+<!--            <b-dropdown-item href="#">CellAge</b-dropdown-item>-->
+<!--            <b-dropdown-item href="#">DrugAge</b-dropdown-item>-->
+<!--            <b-dropdown-item href="#">AnAge</b-dropdown-item>-->
+<!--            <b-dropdown-item href="#">GenDR?</b-dropdown-item>-->
+<!--            <b-dropdown-item href="#tomorrow">LongevityMap</b-dropdown-item>-->
+<!--            <b-dropdown-item href="#tomorrow">Digital Ageing Atlas</b-dropdown-item>-->
+<!--          </b-nav-item-dropdown>-->
           <b-nav-item-dropdown text="Global Perspective">
-            <b-dropdown-item href="#tomorrow">How to Help Fight Ageing</b-dropdown-item>
-            <b-dropdown-item href="#">Immortality and Society</b-dropdown-item>
-            <b-dropdown-item href="#">Gloassary</b-dropdown-item>
-            <b-dropdown-item href="#">Bibliography</b-dropdown-item>
-            <b-dropdown-item href="#">Links</b-dropdown-item>
-            <b-dropdown-item href="#tomorrow">Who's Who in Gerontology</b-dropdown-item>
-            <b-dropdown-item href="#tomorrow">Social Media</b-dropdown-item>
+            <b-dropdown-item ><router-link to='/help-fight-ageing'>How to Help Fight Ageing</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to='/immortality-society'>Immortality and Society</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to='/ageing-glossary'>Glossary</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to ='/ageing-links'>Links</router-link></b-dropdown-item>
+            <b-dropdown-item>Who's Who in Gerontology</b-dropdown-item>
+            <b-dropdown-item>Social Media</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item href="/contact">Contact</b-nav-item>
         </b-navbar-nav>
