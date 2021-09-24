@@ -1,7 +1,7 @@
 <template>
   <div class="hello" style="background-color:#071436">
 <!--    <img alt="DNA Logo" src="../assets/hourglass_dna.png" style="width:180px;height:180px;">-->
-    <img alt="DNA Logo" src="../assets/TransparentLogo.svg" style="height:300px;">
+    <img alt="DNA Logo" src="../assets/OriginalLogo.svg" style="height:280px;">
 <!--    <h1>Welcome to Senescence.info!</h1>-->
 <!--    <p>by Dr. João Pedro de Magalhães</p>-->
     <div>
