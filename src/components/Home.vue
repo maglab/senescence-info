@@ -4,7 +4,7 @@
     <b-row class="text-left">
       <b-col class="text-left" cols="2">
         <div class="sidebar">
-          <b-card border-variant="light">
+          <b-card>
                   <b-nav toggleable="sm" vertical id="navbar">
                     <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
                     <b-nav-item @click="goto('prol')">Prologue</b-nav-item>
