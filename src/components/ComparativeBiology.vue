@@ -34,7 +34,7 @@
           <hr size="1" width="80%">
           <br>
           <div class = maglabquote>
-          <b-card class="text-center">
+          <b-card border-variant="light" class="text-center">
 
               <p>"The reasons for some animals being long-lived and others short-lived, and, in a word, causes of the
                 length and brevity of life call for investigation."</p>

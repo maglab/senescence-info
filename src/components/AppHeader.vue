@@ -54,14 +54,12 @@
 <!--            <b-dropdown-item href="#tomorrow">Digital Ageing Atlas</b-dropdown-item>-->
 <!--          </b-nav-item-dropdown>-->
           <b-nav-item-dropdown text="Global Perspective">
-            <b-dropdown-item ><router-link to='/help-fight-ageing'>How to Help Fight Ageing</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to='/help-fight-ageing'>How to Help Fight Ageing</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to='/immortality-society'>Immortality and Society</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to='/ageing-glossary'>Glossary</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to ='/ageing-links'>Links</router-link></b-dropdown-item>
-            <b-dropdown-item>Who's Who in Gerontology</b-dropdown-item>
-            <b-dropdown-item>Social Media</b-dropdown-item>
           </b-nav-item-dropdown>
-          <b-nav-item href="/contact">Contact</b-nav-item>
+          <b-nav-item href="http://jp.senescence.info/contact.php">Contact</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>

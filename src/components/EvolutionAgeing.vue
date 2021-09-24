@@ -34,7 +34,7 @@
         </div>
         <div ref="class">
           <blockquote><H2>Classical Evolutionary Theories of Aging</H2></blockquote>
-          <b-card border-variant="light">
+          <b-card border-variant="light" class="text-center" >
 
             <p>"Senescence has no function--it is the subversion of function."</p>
             <footer class="blockquote-footer">
@@ -308,8 +308,8 @@
 
         <p align="justify">Darwin, Charles; "On the Origin of Species" (1859). Make sure you get the first edition as it
           is considered the best. There is an <A
-              HREF="http://www.literature.org/authors/darwin-charles/the-origin-of-the-species/">online version</A>
-          available at the classics section of the <A HREF="http://www.literature.org/">Online Literature Library</A>.
+              href="http://www.literature.org/authors/darwin-charles/the-origin-of-the-species/">online version</A>
+          available at the classics section of the <A href="http://www.literature.org/">Online Literature Library</A>.
         </P>
 
         <p align="justify">Dawkins, Richard; "The Blind Watchmaker" (1986).</P>

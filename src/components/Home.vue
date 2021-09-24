@@ -62,20 +62,20 @@
               this website, and how best to use its resources.</p>
             <ul>
 
-              <li><p align="justify"><A HREF="death_and_aging_fears.html">A Vision for senescence.info</A> is an
+              <li><p align="justify"><A href="death_and_aging_fears.html">A Vision for senescence.info</A> is an
                 introduction to the problematic of aging that explains why I decided to dedicate my life to the study of
                 aging.</p></li>
-              <li><p align="justify"><A HREF="http://jp.senescence.info">Author Information</A>; for more about me.</p>
+              <li><p align="justify"><A href="http://jp.senescence.info">Author Information</A>; for more about me.</p>
               </li>
             </ul>
             <blockquote>
               <ul type="circle">
-                <li><p align="justify"><A HREF="http://pcwww.liv.ac.uk/~aging/">Integrative Genomics of Ageing Group</A>;
+                <li><p align="justify"><A href="http://pcwww.liv.ac.uk/~aging/">Integrative Genomics of Ageing Group</A>;
                   describes our lab's work.</p></li>
               </ul>
             </blockquote>
             <ul>
-              <li><p align="justify"><A HREF="disclaimer.html">Disclaimer, Copyright and Citation</A>; it is boring but
+              <li><p align="justify"><A href="disclaimer.html">Disclaimer, Copyright and Citation</A>; it is boring but
                 please read the legal stuff prior to accessing any information.</p></li>
             </ul>
           </blockquote>
@@ -93,21 +93,21 @@
                 Healthy Life</a> is another introduction essay on aging and genetics, originally published in <a
                   href="https://theconversation.com/heres-to-wine-chocolate-and-a-long-healthy-life-31587">The
                 Conversation</a>.</p></li>
-              <li><p align="justify"><A HREF="antiaging_science.html">Anti-Aging Medicine</A> presents and discusses the
+              <li><p align="justify"><A href="antiaging_science.html">Anti-Aging Medicine</A> presents and discusses the
                 most popular life-extension and anti-aging treatments.</p></li>
             </ul>
             <blockquote>
               <ul type="circle">
-                <li><p align="justify"><A HREF="caloric_restriction.html">Caloric Restriction</A> reviews and discusses
+                <li><p align="justify"><A href="caloric_restriction.html">Caloric Restriction</A> reviews and discusses
                   CR facts and products trying to mimic its effects.</p></li>
               </ul>
             </blockquote>
             <ul>
-              <li><p align="justify"><A HREF="physical_immortality_myths.html">Should We Cure Aging?</A> debates several
+              <li><p align="justify"><A href="physical_immortality_myths.html">Should We Cure Aging?</A> debates several
                 myths about aging and whether we should aim to cure aging.</p></li>
-              <li><p align="justify"><A HREF="biogerontology_career.html">How to Become a Biogerontologist</A> offers
+              <li><p align="justify"><A href="biogerontology_career.html">How to Become a Biogerontologist</A> offers
                 career advice for students.</p></li>
-              <li><p align="justify"><A HREF="books.html">Biology of Aging Books</A>; book suggestions and reviews for
+              <li><p align="justify"><A href="books.html">Biology of Aging Books</A>; book suggestions and reviews for
                 students and researchers.</p></li>
             </ul>
           </blockquote>
@@ -116,65 +116,65 @@
           <h2>Gerontology Information</h2>
           <blockquote>
             <p align="justify">An overview of current research on the biology of human aging featuring key observations,
-              concepts, and theories. Thanks to David Bahry, available is also a <A HREF="gerontology.pdf">printer-friendly
-                version</A> <A HREF="gerontology.pdf"><img src="pdf.gif" width="18" height="18" border="0"></A> (last
+              concepts, and theories. Thanks to David Bahry, available is also a <A href="gerontology.pdf">printer-friendly
+                version</A> <A href="gerontology.pdf"><img src="pdf.gif" width="18" height="18" border="0"></A> (last
               updated in August 2013).</p>
             <ul>
-              <li><p align="justify"><A HREF="aging_definition.html">What Is Aging?</A> defines the basic concepts in
+              <li><p align="justify"><A href="aging_definition.html">What Is Aging?</A> defines the basic concepts in
                 the study of longevity and aging.</p></li>
-              <li><p align="justify"><A HREF="aging_animals.html">Some Animals Age, Others May Not</A>; a look at the
+              <li><p align="justify"><A href="aging_animals.html">Some Animals Age, Others May Not</A>; a look at the
                 diverse lifespans and aging phenotypes found in nature.</p></li>
             </ul>
             <blockquote>
               <ul type="circle">
-                <li><p align="justify"><A HREF="comparative_biology.html">Comparative Biology of Aging</A> presents
+                <li><p align="justify"><A href="comparative_biology.html">Comparative Biology of Aging</A> presents
                   trends found in comparative studies of aging.</p></li>
               </ul>
             </blockquote>
             <ul>
-              <li><p align="justify"><A HREF="evolution_of_aging.html">The Evolutionary Theory of Aging</A> debates the
+              <li><p align="justify"><A href="evolution_of_aging.html">The Evolutionary Theory of Aging</A> debates the
                 models and hypotheses put forward to explain how aging evolved.</p></li>
-              <li><p align="justify"><A HREF="aging_models.html">Human Aging Model Systems</A> introduces and discusses
+              <li><p align="justify"><A href="aging_models.html">Human Aging Model Systems</A> introduces and discusses
                 the different model organisms used to study human aging.</p></li>
             </ul>
             <blockquote>
               <ul type="circle">
-                <li><p align="justify"><A HREF="cell_aging.html">Cellular Senescence</A>; cellular models of aging and
+                <li><p align="justify"><A href="cell_aging.html">Cellular Senescence</A>; cellular models of aging and
                   the rationale behind them.</p></li>
               </ul>
               <blockquote>
                 <ul>
-                  <li><p align="justify"><A HREF="telomeres_telomerase.html">Telomeres and Telomerase</A> presents the
+                  <li><p align="justify"><A href="telomeres_telomerase.html">Telomeres and Telomerase</A> presents the
                     telomeres, their maintenance mechanisms, and their relation to human aging.</p></li>
                 </ul>
               </blockquote>
             </blockquote>
             <ul>
-              <li><p align="justify"><A HREF="genetics_of_aging.html">Is Aging Genetic or Is It Wear and Tear?</A>
+              <li><p align="justify"><A href="genetics_of_aging.html">Is Aging Genetic or Is It Wear and Tear?</A>
                 discusses the genetic basis of human aging.</p></li>
-              <li><p align="justify"><A HREF="aging_theories.html">Why Do We Age?</A> offers an overview of the
+              <li><p align="justify"><A href="aging_theories.html">Why Do We Age?</A> offers an overview of the
                 predominant causal theories of aging.</p></li>
             </ul>
             <blockquote>
               <ul type="circle">
-                <li><p align="justify"><A HREF="causes_of_aging.html">Damage-Based Theories of Aging</A> introduces and
+                <li><p align="justify"><A href="causes_of_aging.html">Damage-Based Theories of Aging</A> introduces and
                   discusses theories of aging based on damage accumulation.</p></li>
-                <li><p align="justify"><A HREF="programmed_aging.html">Programmed Theories of Aging</A> introduces and
+                <li><p align="justify"><A href="programmed_aging.html">Programmed Theories of Aging</A> introduces and
                   discusses theories of aging based on programmed events.</p></li>
               </ul>
             </blockquote>
             <ul>
-              <li><p align="justify"><A HREF="aging_cure.html">Curing Aging and the Science of Immortality</A> presents
+              <li><p align="justify"><A href="aging_cure.html">Curing Aging and the Science of Immortality</A> presents
                 possible approaches to retard and reverse human aging.</p></li>
             </ul>
             <blockquote>
               <ul type="circle">
-                <li><p align="justify"><A HREF="sens.html">Strategies for Engineered Negligible Senescence</A> or SENS
+                <li><p align="justify"><A href="sens.html">Strategies for Engineered Negligible Senescence</A> or SENS
                   is a proposal to cure aging which is appraised here.</p></li>
               </ul>
             </blockquote>
             <ul>
-              <li><p align="justify"><A HREF="engineering_aging.html">Godseed</A> speculates how we will be able to
+              <li><p align="justify"><A href="engineering_aging.html">Godseed</A> speculates how we will be able to
                 change ourselves onto non-aging organisms.</p></li>
             </ul>
           </blockquote>
@@ -186,12 +186,12 @@
               href="http://pcwww.liv.ac.uk/~aging/">Integrative
             Genomics of Ageing Group</a> at the <a href="http://www.liv.ac.uk">University of Liverpool</a> in the UK.
             Amongst other <a href="http://pcwww.liv.ac.uk/~aging/research.html">projects</a>, we maintain the <A
-                HREF="http://genomics.senescence.info">Human Ageing Genomic Resources</A>, a series of tools and
+                href="http://genomics.senescence.info">Human Ageing Genomic Resources</A>, a series of tools and
             databases
             aimed at understanding the genetic basis of human aging.</p>
 
             <ul>
-              <li><p align="justify"><A HREF="http://genomics.senescence.info/genes/">GenAge</A> is a curated database
+              <li><p align="justify"><A href="http://genomics.senescence.info/genes/">GenAge</A> is a curated database
                 of
                 genes related to aging in humans and in model organisms.</p></li>
               <li><p align="justify"><a href="http://genomics.senescence.info/diet/">GenDR</a> is the first database of
@@ -211,16 +211,16 @@
           <blockquote>
             <p align="justify">Cooperation and networking are keys to success.</p>
             <ul>
-              <li><p align="justify"><A HREF="help_fight_aging.html">How to Help Fight Aging</A> offers ideas and
+              <li><p align="justify"><A href="help_fight_aging.html">How to Help Fight Aging</A> offers ideas and
                 suggestions on how to contribute to progress in gerontology.</p></li>
-              <li><p align="justify"><A HREF="immortal_society.html">Immortality and Society</A> paints a picture of a
+              <li><p align="justify"><A href="immortal_society.html">Immortality and Society</A> paints a picture of a
                 world without aging and debates the consequences of a future cure for aging.</p></li>
               <li><p align="justify"><a href="glossary.html">Glossary</a></p></li>
-              <li><p align="justify"><A HREF="bibliography.html">Bibliography</A>; all the roughly 1,000 references
+              <li><p align="justify"><A href="bibliography.html">Bibliography</A>; all the roughly 1,000 references
                 cited
                 in <strong>senescence.info</strong>.</p></li>
               <li><p align="justify"><a href="links.html">Links on Aging</a></p></li>
-              <li><p align="justify"><A HREF="http://whoswho.senescence.info">Who's Who in Gerontology</A> is a list of
+              <li><p align="justify"><A href="http://whoswho.senescence.info">Who's Who in Gerontology</A> is a list of
                 individuals and companies working on aging, longevity and related fields.</p></li>
               <li><p align="justify">For the latest news, findings and papers on the biology of aging:
                 <div class="fb-like" data-href="https://www.facebook.com/BiologyAgingNews/" data-layout="button_count"

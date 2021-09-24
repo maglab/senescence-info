@@ -7,17 +7,17 @@
           <b-card>
             <b-nav vertical>
               <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
-              <b-nav-item @click="goto('1')">Myth #1</b-nav-item>
-              <b-nav-item @click="goto('2')">Myth #2</b-nav-item>
-              <b-nav-item @click="goto('3')">Myth #3</b-nav-item>
-              <b-nav-item @click="goto('4')">Myth #4</b-nav-item>
-              <b-nav-item @click="goto('5')">Myth #5</b-nav-item>
-              <b-nav-item @click="goto('6')">Myth #6</b-nav-item>
-              <b-nav-item @click="goto('7')">Myth #7</b-nav-item>
-              <b-nav-item @click="goto('8')">Myth #8</b-nav-item>
-              <b-nav-item @click="goto('9')">Myth #9</b-nav-item>
-              <b-nav-item @click="goto('10')">Myth #10</b-nav-item>
-              <b-nav-item @click="goto('11')">Myth #11</b-nav-item>
+              <b-nav-item @click="goto('1')">Aging is natural</b-nav-item>
+              <b-nav-item @click="goto('2')">What is the point?</b-nav-item>
+              <b-nav-item @click="goto('3')">Finite lifespan</b-nav-item>
+              <b-nav-item @click="goto('4')">Why should death be better than life?</b-nav-item>
+              <b-nav-item @click="goto('5')">Not everyone would benefit</b-nav-item>
+              <b-nav-item @click="goto('6')">Economic disaster</b-nav-item>
+              <b-nav-item @click="goto('7')">Overpopulation</b-nav-item>
+              <b-nav-item @click="goto('8')">Dangers of Human Trials</b-nav-item>
+              <b-nav-item @click="goto('9')">Humankind would change</b-nav-item>
+              <b-nav-item @click="goto('10')">Priorities</b-nav-item>
+              <b-nav-item @click="goto('11')">Ethics</b-nav-item>
             </b-nav>
           </b-card>
         </div>
