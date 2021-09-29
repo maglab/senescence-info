@@ -157,9 +157,9 @@
             </ul>
             <blockquote>
               <ul type="circle">
-                <li><p align="justify"><router-link to="causes_of_aging.html">Damage-Based Theories of Aging</router-link> introduces and
+                <li><p align="justify"><router-link to="/causes-of-ageing">Damage-Based Theories of Aging</router-link> introduces and
                   discusses theories of aging based on damage accumulation.</p></li>
-                <li><p align="justify"><router-link to="programmed_aging.html">Programmed Theories of Aging</router-link> introduces and
+                <li><p align="justify"><router-link to="/programmed-ageing">Programmed Theories of Aging</router-link> introduces and
                   discusses theories of aging based on programmed events.</p></li>
               </ul>
             </blockquote>
@@ -169,12 +169,12 @@
             </ul>
             <blockquote>
               <ul type="circle">
-                <li><p align="justify"><router-link to="sens.html">Strategies for Engineered Negligible Senescence</router-link> or SENS
+                <li><p align="justify"><router-link to="/sens">Strategies for Engineered Negligible Senescence</router-link> or SENS
                   is a proposal to cure aging which is appraised here.</p></li>
               </ul>
             </blockquote>
             <ul>
-              <li><p align="justify"><router-link to="engineering_aging.html">Godseed</router-link> speculates how we will be able to
+              <li><p align="justify"><router-link to="/engineering-ageing">Godseed</router-link> speculates how we will be able to
                 change ourselves onto non-aging organisms.</p></li>
             </ul>
           </blockquote>
@@ -184,23 +184,23 @@
 
           <blockquote><p align="justify">I am the principal investigator of the <a
               to="http://pcwww.liv.ac.uk/~aging/">Integrative
-            Genomics of Ageing Group</a> at the <router-link to="http://www.liv.ac.uk">University of Liverpool</router-link> in the UK.
+            Genomics of Ageing Group</a> at the <a href="http://www.liv.ac.uk">University of Liverpool</a> in the UK.
             Amongst other <a to="http://pcwww.liv.ac.uk/~aging/research.html">projects</a>, we maintain the <a
-                to="http://genomics.senescence.info">Human Ageing Genomic Resources</a>, a series of tools and
+                href="http://genomics.senescence.info">Human Ageing Genomic Resources</a>, a series of tools and
             databases
             aimed at understanding the genetic basis of human aging.</p>
 
             <ul>
-              <li><p align="justify"><a to="http://genomics.senescence.info/genes/">GenAge</a> is a curated database
+              <li><p align="justify"><a href="http://genomics.senescence.info/genes/">GenAge</a> is a curated database
                 of
                 genes related to aging in humans and in model organisms.</p></li>
-              <li><p align="justify"><a to="http://genomics.senescence.info/diet/">GenDR</a> is the first database of
+              <li><p align="justify"><a href="http://genomics.senescence.info/diet/">GenDR</a> is the first database of
                 dietary restriction-associated genes.</p></li>
-              <li><p align="justify"><a to="http://genomics.senescence.info/longevity/">LongevityMap</a> is the first
+              <li><p align="justify"><a href="http://genomics.senescence.info/longevity/">LongevityMap</a> is the first
                 database of human genetic variants associated with longevity.</p></li>
-              <li><p align="justify"><a to="http://genomics.senescence.info/species/">AnAge</a> is an aging-oriented
+              <li><p align="justify"><a href="http://genomics.senescence.info/species/">AnAge</a> is an aging-oriented
                 animal database featuring over 4,000 species.</p></li>
-              <li><p align="justify"><a to="http://human.ageing-map.org/">The Digital Ageing Atlas</a> is the first
+              <li><p align="justify"><a href="http://human.ageing-map.org/">The Digital Ageing Atlas</a> is the first
                 centralized collection of aging changes and pathologies.</p></li>
             </ul>
           </blockquote>
@@ -211,21 +211,21 @@
           <blockquote>
             <p align="justify">Cooperation and networking are keys to success.</p>
             <ul>
-              <li><p align="justify"><router-link to="help_fight_aging.html">How to Help Fight Aging</router-link> offers ideas and
+              <li><p align="justify"><router-link to="/help-fight-ageing">How to Help Fight Aging</router-link> offers ideas and
                 suggestions on how to contribute to progress in gerontology.</p></li>
               <li><p align="justify"><router-link to="/immortality-society">Immortality and Society</router-link> paints a picture of a
                 world without aging and debates the consequences of a future cure for aging.</p></li>
-              <li><p align="justify"><router-link to="glossary.html">Glossary</router-link></p></li>
-              <li><p align="justify"><router-link to="bibliography.html">Bibliography</router-link>; all the roughly 1,000 references
+              <li><p align="justify"><router-link to="/ageing-glossary">Glossary</router-link></p></li>
+              <li><p align="justify"><router-link to="/bibliography">Bibliography</router-link>; all the roughly 1,000 references
                 cited
                 in <strong>senescence.info</strong>.</p></li>
               <li><p align="justify"><router-link to="/ageing-links">Links on Aging</router-link></p></li>
-              <li><p align="justify"><a to="http://whoswho.senescence.info">Who's Who in Gerontology</a> is a list of
+              <li><p align="justify"><a href="http://whoswho.senescence.info">Who's Who in Gerontology</a> is a list of
                 individuals and companies working on aging, longevity and related fields.</p></li>
               <li><p align="justify">For the latest news, findings and papers on the biology of aging:
                 <div class="fb-like" data-to="https://www.facebook.com/BiologyAgingNews/" data-layout="button_count"
                      data-action="like" data-show-faces="false" data-share="false"></div>
-                <a to="https://twitter.com/AgingBiology" class="twitter-follow-button" data-show-count="false">Follow
+                <a href="https://twitter.com/AgingBiology" class="twitter-follow-button" data-show-count="false">Follow
                   @AgingBiology</a></li>
 
             </ul>

@@ -119,7 +119,7 @@
             "little people" may also be longer-lived (Krzisnik et al., 1999). Therefore, it appears that while on one
             hand bigger species tend to be longer-lived, within a given species smaller individuals--in protected
             environments--tend to live longer. The possible physiological and genetic reasons for the latter phenomenon
-            and implications for our understanding of aging are debated in <router-link to="programmed_aging.html">another
+            and implications for our understanding of aging are debated in <router-link to="/programmed-ageing">another
               essay</router-link>.</P>
         </div>
         <div ref="metabolic">
@@ -127,7 +127,7 @@
         <p align="justify">Another relationship long studied in gerontology is Kleiber's rule that relates maximum
           lifespan with metabolic rate (Kleiber, 1975; Gosden, 1996, pp. 103-110). (Kleiber's rule actually originates
           in a theory of aging called the "rate of living theory," which is discussed in more detail <router-link
-              to="causes_of_aging.html">elsewhere</router-link>.) It can be argued, for instance, that reptilians and amphibians
+              to="/causes-of-ageing">elsewhere</router-link>.) It can be argued, for instance, that reptilians and amphibians
           live longer because they have decreased metabolic rates since they are cold-blooded animals. Similarly, if the
           metabolic rate, the rate at which reactions occur in cells is higher in, for instance, mice than in humans
           then maybe that is why mice live less than humans (Prinzinger, 2005).</p>
@@ -163,7 +163,7 @@
           it takes for a given mammalian species to reach sexual maturity, the longer it can live afterwards. There are
           some exceptions, however, such as the male Anthechinus which is <router-link to="/ageing-animals">mentioned
             elsewhere</router-link>. One hypothesis is that there is a mechanistic link between pace of development and pace of
-          aging, as discussed in <router-link to="programmed_aging.html">another essay</router-link>. It is also worth mentioning that
+          aging, as discussed in <router-link to="/programmed-ageing">another essay</router-link>. It is also worth mentioning that
           each organism's body-plan is largely determined by its genetic program, and the body-plan can have a powerful
           influence on longevity, as shown by aphagy in some insects or the semelparity of species like the salmon.
           Different species could well be influenced by development in different ways: the relation (adult phase)/(total
@@ -196,7 +196,7 @@
           2008). Comparisons between nuclear genomes across species with different lifespans can also focus on
           identifying genes with patterns of evolution associated with longevity (de Magalhaes and Church, 2007). One
           genome-wide scan for genes associated with the evolution of longevity in mammals found evidence that proteins
-          involved in protein degradation, a process <router-link to="causes_of_aging.html">associated with aging</router-link>, are under
+          involved in protein degradation, a process <router-link to="/causes-of-ageing">associated with aging</router-link>, are under
           selection in lineages where longevity increased (Li and de Magalhaes, 2013). Given the explosion of genomic
           data, these approaches are bound to become more powerful and reveal specific genes and patterns associated
           with longevity. To facilitate comparative studies of aging, including in genomics, <router-link

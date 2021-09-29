@@ -115,7 +115,7 @@
         </div>
         <blockquote><p align="justify">"The Fountain of Youth: Cultural, Scientific, and Ethical Perspectives on a Biomedical Goal" edited by Post, SG and Binstock, RH (2004). Oxford University Press, New York.</p>
 
-          <p align="justify">"The Scientific Conquest of Death: Essays on Infinite Lifespans" edited by the Immortality Institute (2004). Libros En Red, Buenos Aires. A book to which I contributed <router-link to="engineering_aging.html">a chapter</router-link>.</p></blockquote>
+          <p align="justify">"The Scientific Conquest of Death: Essays on Infinite Lifespans" edited by the Immortality Institute (2004). Libros En Red, Buenos Aires. A book to which I contributed <router-link to="/engineering-ageing">a chapter</router-link>.</p></blockquote>
 
       </b-col>
 

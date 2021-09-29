@@ -180,10 +180,10 @@
         <p align="justify">Insulin-like growth factor 1 (IGF-1) is another hormone that may play a role in aging and can
           be purchased as a supplement. IGF-1's production is induced by GH and, like GH, IGF-1's levels decline with
           age and, in mice, low levels of IGF-1 appear to correlate with longevity; mutations in mice that lower IGF-1
-          seem to extend lifespan, as <router-link to="programmed_aging.html">detailed elsewhere</router-link>. So, just like for hGH,
+          seem to extend lifespan, as <router-link to="/programmed-ageing">detailed elsewhere</router-link>. So, just like for hGH,
           IGF-1 injections could be counter-productive. In fact, there is some evidence that little people with low
           levels of IGF-1 live longer (Krzisnik et al., 1999). Interestingly, anti-aging therapies based on lowering
-          IGF-1 may be possible (Miller, 2005). As <router-link to="programmed_aging.html">mentioned elsewhere</router-link>, IGF-1 does
+          IGF-1 may be possible (Miller, 2005). As <router-link to="/programmed-ageing">mentioned elsewhere</router-link>, IGF-1 does
           appear to play a role in aging, but whether it can be used in anti-aging is pure speculation at this stage.
           Clearly, however, IGF-1 injections are unlikely to extend lifespan and, like hGH, may even be harmful.</p>
 
@@ -217,7 +217,7 @@
         <div ref="antiox">
           <blockquote><H2>Antioxidants</H2></blockquote>
 
-          <p align="justify">One theory of aging is the <router-link to="causes_of_aging.html">free radical theory of aging</router-link>.
+          <p align="justify">One theory of aging is the <router-link to="/causes-of-ageing">free radical theory of aging</router-link>.
             Succinctly, when oxygen is used to make energy in human cells, it releases reactive compounds called free
             radicals, also called reactive oxygen species (ROS). To fight ROS, cells possess an array of defenses called
             antioxidants, many of which can be synthesized or extracted, purified, and then sold, generally in tablets,
@@ -288,7 +288,7 @@
           <blockquote><H2>Stem Cells</H2></blockquote>
 
           <p align="justify">In recent years stem cells have received widespread attention. This fame is partly merited
-            given the huge potential of stem cells for regenerative medicine, as <router-link to="engineering_aging.html">discussed
+            given the huge potential of stem cells for regenerative medicine, as <router-link to="/engineering-ageing">discussed
               elsewhere</router-link>. The possibility of using stem cells to treat diseases of aging and for rejuvenation is also
             tantalizing. Having said that, and while depletion/dysfunction of stem cells are thought to play a role in
             aging (e.g., see de Magalhaes and Faragher, 2008), there is no evidence that stem cell-based anti-aging
@@ -327,7 +327,7 @@
             develop anti-aging drugs without the side-effects of rapamycin (reviewed in de Magalhaes et al., 2012).</p>
 
           <p align="justify">One gene that appears to influence aging in mice is <em>klotho</em>. As <router-link
-              to="programmed_aging.html">detailed elsewhere</router-link>, high levels of klotho increase lifespan by about 30%,
+              to="/programmed-ageing">detailed elsewhere</router-link>, high levels of klotho increase lifespan by about 30%,
             though it is not entirely clear if aging is delayed, and low levels appear to foster aging (Kuro-o et al.,
             1997). Human longevity has also been linked to allelic variants in this gene (Arking et al., 2002). Its
             functions are still largely a mystery but since the gene encodes one secreted form that acts as a hormone,

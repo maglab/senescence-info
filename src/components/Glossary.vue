@@ -18,7 +18,7 @@
 
     <p align="justify"><b>Antagonistic pleiotropy:</b> <router-link to="/evolution-of-ageing">theory</router-link> by George Williams that explains the existence of aging by the existence of genes beneficial early in life but harmful at later stages.</p>
 
-    <p align="justify"><b>Autophagy:</b> digestion of the cell's own components; it has been <router-link to="causes_of_aging.html">implicated in aging</router-link>.</p>
+    <p align="justify"><b>Autophagy:</b> digestion of the cell's own components; it has been <router-link to="/causes-of-ageing">implicated in aging</router-link>.</p>
 
     <p align="justify"><b>Biogerontology:</b> the scientific study of the biological process of aging.</p>
 
@@ -30,7 +30,7 @@
 
     <p align="justify"><b>Demography:</b> the statistical study of populations; human aging is characterized by <router-link to="/ageing-definition">demographic aging</router-link>.</p>
 
-    <p align="justify"><b>Developmental theory of aging (DevAge):</b> <router-link to="programmed_aging.html">theory</router-link> arguing that aging is an extension of developmental mechanisms.</p>
+    <p align="justify"><b>Developmental theory of aging (DevAge):</b> <router-link to="/programmed-ageing">theory</router-link> arguing that aging is an extension of developmental mechanisms.</p>
 
     <p align="justify"><b>Diphyodont:</b> an animal that develops two successive sets of teeth, common in <router-link to="/ageing-animals">most mammals</router-link>.</p>
 
@@ -38,13 +38,13 @@
 
     <p align="justify"><b>Disposable soma theory:</b> <router-link to="/evolution-of-ageing">theory</router-link> by Thomas Kirkwood that explains the existence of aging by the allocation of resources from somatic maintenance to reproduction.</p>
 
-    <p align="justify"><b>DNA damage theory of aging:</b> <router-link to="causes_of_aging.html">theory</router-link> that argues that aging is due to the accumulation of DNA damage with ensuing cellular alterations and disruption of tissue homeostasis.</p>
+    <p align="justify"><b>DNA damage theory of aging:</b> <router-link to="/causes-of-ageing">theory</router-link> that argues that aging is due to the accumulation of DNA damage with ensuing cellular alterations and disruption of tissue homeostasis.</p>
 
     <p align="justify"><b>Dyskeratosis congenita:</b> genetic disease caused by defects in the dyskerin protein, one of the components of <router-link to="/telomeres-telomerase">telomerase</router-link>.</p>
 
     <p align="justify"><b>Ectotherm:</b> a cold-blooded animal, such as a reptile, fish, or amphibian, whose body temperature is mostly determined by the surrounding environment.</p>
 
-    <p align="justify"><b>Endocrine system:</b> group of hormone-producing glands and their secretions (hormones); the endocrine system have been <router-link to="programmed_aging.html">implicated in aging</router-link>.</p>
+    <p align="justify"><b>Endocrine system:</b> group of hormone-producing glands and their secretions (hormones); the endocrine system have been <router-link to="/programmed-ageing">implicated in aging</router-link>.</p>
 
     <p align="justify"><b>Endotherm:</b> a warm-blooded animal, like a bird and mammal, capable of regulating its internal temperature.</p>
 
@@ -54,7 +54,7 @@
 
     <p align="justify"><b>Exonuclease:</b> enzyme that cleaves nucleotides from one end of a strand of nucleic acid.</p>
 
-    <p align="justify"><b>Free radical theory of aging:</b> <router-link to="causes_of_aging.html">theory</router-link> by Denham Harman that argues that aging is a result of damage accumulation caused by reactive oxygen species.</p>
+    <p align="justify"><b>Free radical theory of aging:</b> <router-link to="/causes-of-ageing">theory</router-link> by Denham Harman that argues that aging is a result of damage accumulation caused by reactive oxygen species.</p>
 
     <p align="justify"><b>Gene:</b> DNA sequence that encodes a protein and represents the basic unit of inheritance.</p>
     <p align="justify"><b>Genetics:</b> the study of heredity--i.e., the passing of characteristics from one generation to another--and of variation of inherited characteristics. Aging has a strong <router-link to="/genetics-of-ageing">genetic component</router-link>.</p>
@@ -101,7 +101,7 @@
 
     <p align="justify"><b>Oocyte:</b> a female gametocyte that develops into an ovum after two meiotic divisions.</p>
     <p align="justify"><b>Oogenesis:</b> formation of new oocytes.</p>
-    <p align="justify"><b>Oxidative stress:</b> damage caused by reactive oxygen species; oxidative stress has been <router-link to="causes_of_aging.html">implicated in aging</router-link>.</p>
+    <p align="justify"><b>Oxidative stress:</b> damage caused by reactive oxygen species; oxidative stress has been <router-link to="/causes-of-ageing">implicated in aging</router-link>.</p>
     <p align="justify"><b>Phenotype:</b> the characteristics of an organism as determined by both genetic makeup and environmental influences.</p>
 
     <p align="justify"><b>Phylogeny:</b> the evolutionary development and history of a species or taxonomic group of species.</p>
@@ -118,9 +118,9 @@
 
     <p align="justify"><b>Quiescent:</b> in cell biology, a quiescent cell is one that is not dividing.</p>
 
-    <p align="justify"><b>Rate of living theory:</b> <router-link to="causes_of_aging.html">theory</router-link> that argues that lifespan inversely correlates with metabolic rates.</p>
+    <p align="justify"><b>Rate of living theory:</b> <router-link to="/causes-of-ageing">theory</router-link> that argues that lifespan inversely correlates with metabolic rates.</p>
 
-    <p align="justify"><b>Reactive oxygen species (ROS):</b> any of a number of highly reactive forms of oxygen that are potential sources of damage; damage caused by ROS has been <router-link to="causes_of_aging.html">implicated in aging</router-link>.</p>
+    <p align="justify"><b>Reactive oxygen species (ROS):</b> any of a number of highly reactive forms of oxygen that are potential sources of damage; damage caused by ROS has been <router-link to="/causes-of-ageing">implicated in aging</router-link>.</p>
     <p align="justify"><b><router-link to="/cell-ageing">Replicative senescence</router-link>:</b> irreversible cessation of cell division of normally proliferating cells. It is also characterized by <router-link to="/cell-ageing">various biomarkers</router-link> and can or not be accompanied by cell death.</p>
 
     <p align="justify"><b>Semelparous:</b> organisms that reproduce only once, usually followed by death, as observed in <router-link to="/ageing-animals">several animals</router-link>.</p>
@@ -129,7 +129,7 @@
     <p align="justify"><b>Soma:</b> the entire body of an organism with exception of the germ cells.</p>
     <p align="justify"><b>Stem cell:</b> an undifferentiated cell that can divide, differentiate into specialized cells, and can self-renew to give rise to more stem cells.</p>
 
-    <p align="justify"><b><router-link to="sens.html">Strategies for engineered negligible senescence</router-link> (SENS):</b> a proposal by Aubrey de Grey that details how by reversing seven forms of cellular and molecular age-related changes will allow us to cure aging.</p>
+    <p align="justify"><b><router-link to="/sens">Strategies for engineered negligible senescence</router-link> (SENS):</b> a proposal by Aubrey de Grey that details how by reversing seven forms of cellular and molecular age-related changes will allow us to cure aging.</p>
 
     <p align="justify"><b>Stress-induced premature senescence (SIPS):</b> irreversible  cell cycle arrest and associated <router-link to="/cell-ageing">cell phenotypes</router-link> as the result of subcytotoxic stress.</p>
 

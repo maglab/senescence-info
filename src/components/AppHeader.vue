@@ -42,7 +42,7 @@
             <b-dropdown-item><router-link to="/programmed-ageing">Programmed Theories</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/ageing-cure">Curing Ageing</router-link></b-dropdown-item>
             <!--            <b-dropdown-item href="#">Curing Ageing and the Science of Immorality</b-dropdown-item>-->
-            <!--&lt;!&ndash;            <b-dropdown-item href="#">Godseed</b-dropdown-item> too much on this menu!&ndash;&gt;-->
+            <b-dropdown-item><router-link to = "/engineering-ageing">Godseed</router-link></b-dropdown-item>
 
           </b-nav-item-dropdown>
 <!--          <b-nav-item-dropdown text="Genomics" >-->

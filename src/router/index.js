@@ -30,6 +30,8 @@ import Gerontology from "../components/Gerontology";
 import GerontologyTutorials from "../components/GerontologyTutorials";
 import WineChocolate from "../components/WineChocolate";
 import CalorieRestriction from "../components/CalorieRestriction";
+import SENS from "../components/SENS";
+import EngineeringAgeing from "../components/EngineeringAgeing";
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -185,6 +187,16 @@ export default new VueRouter({
       path: '/caloric-restriction',
       name: 'CalorieRestriction',
       component: CalorieRestriction
+    },
+    {
+      path: '/sens',
+      name: 'SENS',
+      component: SENS
+    },
+    {
+      path: '/engineering-ageing',
+      name: 'Godseed',
+      component: EngineeringAgeing
     },
     { path: '*', redirect: '/home' }
   ]

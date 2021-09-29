@@ -159,7 +159,7 @@
             three, or twenty--combined with a young physique. The burden of age-related diseases on health care will
             disappear. That is why the grandparents of tomorrow will live longer and happier lives. You and I are the
             grandparents of tomorrow. With hard work, <router-link to="/gerontology">scientific research</router-link>, <router-link
-                to="help_fight_aging.html">anti-aging advocacy</router-link> and a bit of luck, we may be around for centuries
+                to="/help-fight-ageing">anti-aging advocacy</router-link> and a bit of luck, we may be around for centuries
             to come.</p>
 
           <hr size="1" width="60%">
