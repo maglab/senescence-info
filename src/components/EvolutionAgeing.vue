@@ -21,10 +21,10 @@
 
           <blockquote>
             <p align="justify">Because aging increases an organism's vulnerability and ultimately leads to its death, as
-              detailed <a href="aging_definition.html">before</a>, it is apparently in contradiction with Darwin's
-              evolutionary theory. After all, how could evolution favor a process that, as happens in <a
-                  href="aging_animals.html">most animals</a>, gradually increases mortality and decreases reproductive
-              capacity? How could <a href="genetics_of_aging.html">genes</a> that cause aging evolve? This essay
+              detailed <router-link to="/ageing-definition">before</router-link>, it is apparently in contradiction with Darwin's
+              evolutionary theory. After all, how could evolution favor a process that, as happens in <router-link
+                  to="/ageing-animals">most animals</router-link>, gradually increases mortality and decreases reproductive
+              capacity? How could <router-link to="/genetics-of-ageing">genes</router-link> that cause aging evolve? This essay
               presents and discusses the most important evolutionary models for how aging may have evolved.</p>
 
             <p><em>Keywords:</em> ageing, biogerontology, evolutionary biology, genetic dustbin, genotype, immortal
@@ -97,8 +97,8 @@
             late-acting beneficial genes or to the appearance of late-acting harmful genes. In Williams's model, aging
             evolves due to the pleiotropic effect of some genes that are beneficial early in life and then harmful at
             later ages. At present, both theories are widely accepted and they are not mutually exclusive (Gavrilov and
-            Gavrilova, 2002). Some results conducted in <em>Drosophila</em>, a fruit fly widely <a
-                href="aging_models.html">used in aging studies</a>, hint that Medawar's theory of mutation accumulation
+            Gavrilova, 2002). Some results conducted in <em>Drosophila</em>, a fruit fly widely <router-link
+                to="/ageing-models">used in aging studies</router-link>, hint that Medawar's theory of mutation accumulation
             might be more prevalent over Williams's antagonistic pleiotropy hypothesis (Charlesworth and Hughes, 1996;
             Hughes et al., 2002), but conflicting results exit (Rose et al., 2002). </p>
         </div>
@@ -119,9 +119,9 @@
             <em>K</em>-selected. Therefore, <em>r</em>-selection will favor rapid development, small body sizes, and a
             short lifespan while <em>K</em>-selection will favor delayed development, larger body sizes, and a longer
             lifespan (Austad, 1997b). For instance, humans, whales, or elephants are <em>K</em>-selected while mice and
-            voles are <em>r</em>-selected. If we consider the wide range of <a href="aging_animals.html">lifespans among
-              animals</a> (including mammals), as well as <a href="comparative_biology.html">factors correlating with
-              longevity</a>, <em>r</em> and <em>K</em> selection provide a useful model to begin understanding such
+            voles are <em>r</em>-selected. If we consider the wide range of <router-link to="/ageing-animals">lifespans among
+              animals</router-link> (including mammals), as well as <router-link to="/comparative-biology">factors correlating with
+              longevity</router-link>, <em>r</em> and <em>K</em> selection provide a useful model to begin understanding such
             variation.</p>
         </div>
         <div ref="empirical">
@@ -141,7 +141,7 @@
             however, there are some exceptions.</p>
 
           <p align="justify">One extreme example among life history strategies are animals that reproduce only once, as
-            <a href="aging_animals.html">mentioned earlier</a>. Semelparous species appear to fit life history theory as
+            <router-link to="/ageing-animals">mentioned earlier</router-link>. Semelparous species appear to fit life history theory as
             examples of ecological adaptation to certain life history conditions. For example, if due to high extrinsic
             mortality attaining reproductive maturity is unusually difficult and not likely to be repeated more than
             once (Austad, 1997a, p. 117). Another scenario is one in which mortality is significantly lower in juveniles
@@ -161,7 +161,7 @@
             evolutionary theory of aging argues that aging is multifactorial (Rose, 1991; Kirkwood and Austad, 2000). In
             other words, the evolutionary theory of aging postulates that numerous small-effect genes, rather than a few
             strong-effect ones, are involved in aging. Hence, the way single gene knock-outs have been shown to delay
-            aging in animals, which is <a href="genetics_of_aging.html">detailed elsewhere</a>, was in contradiction
+            aging in animals, which is <router-link to="/genetics-of-ageing">detailed elsewhere</router-link>, was in contradiction
             with at least some aspects of the evolutionary theory of aging (reviewed in Johnson, 2002). In addition,
             some genetic manipulations appear to delay aging while not affecting reproduction (Dillin et al., 2002;
             Marden et al., 2003; Simon et al., 2003), which also contradicts the evolutionary theory of aging. Eusocial
@@ -171,11 +171,11 @@
             earlier maturity and invested more in reproduction, as expected, but do not have an earlier onset of
             demographic or reproductive aging, which contradicts the evolutionary theory of aging (Reznick et al.,
             2004). In addition, the classical evolutionary theory of aging does not explain why aging, a phenotype that
-            escaped natural selection, is so similar among mammals, as <a href="aging_animals.html">described before</a>.
+            escaped natural selection, is so similar among mammals, as <router-link to="/ageing-animals">described before</router-link>.
           </p>
 
           <p align="justify">One of the most intriguing phenotypes in the biology of aging are animals that appear not
-            to age, as <a href="aging_animals.html">previously discussed</a>. Studies conducted both in captivity and in
+            to age, as <router-link to="/ageing-animals">previously discussed</router-link>. Studies conducted both in captivity and in
             the wild have shown that several species of fishes, amphibians, and reptiles, to name only vertebrates, fail
             to show signs of aging. Of course, these animals have only been studied for a limited amount of time. Still,
             it is surprising to find that, in a 50-year study, female Blanding's turtles increased both survivorship and
@@ -207,14 +207,14 @@
             nurturing--has also been suggested as an important factor that must be taken into consideration (Lee, 2003).
             Therefore, new evolutionary models of aging continue to be proposed and the evolutionary theory of aging
             will certainly continue to evolve. Besides, a major open question concerns the precise genetic mechanisms
-            and specific genes underlying the evolution of aging and species differences in aging, as discussed <a
-                href="comparative_biology.html">elsewhere</a>.</p>
+            and specific genes underlying the evolution of aging and species differences in aging, as discussed <router-link
+                to="/comparative-biology">elsewhere</router-link>.</p>
         </div>
         <div ref="unique">
           <blockquote><H2>The Unique Evolution of Mammalian Aging</H2></blockquote>
 
-          <p align="justify">Since humans are mammals, of special interest is the evolution of mammalian aging. As <a
-              href="aging_animals.html">mentioned before</a>, the aging phenotype of mammals has some common features
+          <p align="justify">Since humans are mammals, of special interest is the evolution of mammalian aging. As <router-link
+              to="/ageing-animals">mentioned before</router-link>, the aging phenotype of mammals has some common features
             that may be a result of unique evolutionary events. What follows is a particular model that aims to explain
             the evolution of aging in mammals based on the classical evolutionary models of aging.</p>
 
@@ -224,12 +224,12 @@
           <blockquote><p align="justify"><strong>Figure 2:</strong> Overview of the evolution of mammals and
             closely-related taxa. Lines are not to scale. (Adapted from Hedges, 2002; Maddison and Schulz, 2004.) Images
             source: green tree frog (Jane Rohling), Western painted turtle (Gary Stolz), ground squirrel (John and Karen
-            Hollingsworth), humpback whale (Robin Hunter), cheetah (Gary Stolz), <a href="http://www.fws.gov">U.S. Fish
+            Hollingsworth), humpback whale (Robin Hunter), cheetah (Gary Stolz), <a to="http://www.fws.gov">U.S. Fish
               and Wildlife Service</a>.</P></blockquote>
 
           <p align="justify">Mammals evolved from reptiles (Fig. 2), a taxon with many apparently non-aging species
-            (e.g., Congdon et al., 2001 & 2003). On the contrary, and as <a href="aging_animals.html">described
-              before</a>, all known mammals age. In fact, the intensity and incidence of aging appears to be higher in
+            (e.g., Congdon et al., 2001 & 2003). On the contrary, and as <router-link to="/ageing-animals">described
+              before</router-link>, all known mammals age. In fact, the intensity and incidence of aging appears to be higher in
             mammals than in reptiles. This is surprising since mammals can be long-lived. The long lifespan of mammals
             also suggests the incidence of aging in mammals is not an accident, as proved by the number of old mammals
             that can be found in the wild (Nesse, 1988; Spencer and Promislow, 2002a; Nussey et al., 2013); in
@@ -299,8 +299,8 @@
             compared to, for instance, amphibians and reptiles (Brockes et al., 2001). It also explains why there are so
             many similarities in the aging process of mammals since it is postulated that the aging process of mammals
             has, to some degree, a common origin. Lastly, it is possible that reptiles feature unique mechanisms to
-            delay aging and age-related debilitation, which makes reptiles an intriguing model to study aging, as <a
-                href="aging_models.html">discussed elsewhere</a>.</p>
+            delay aging and age-related debilitation, which makes reptiles an intriguing model to study aging, as <router-link
+                to="/ageing-models">discussed elsewhere</router-link>.</p>
         </div>
 
         <blockquote><H2>A Few Reading Suggestions on Evolutionary Biology</H2></blockquote>
@@ -308,8 +308,8 @@
 
         <p align="justify">Darwin, Charles; "On the Origin of Species" (1859). Make sure you get the first edition as it
           is considered the best. There is an <A
-              href="http://www.literature.org/authors/darwin-charles/the-origin-of-the-species/">online version</A>
-          available at the classics section of the <A href="http://www.literature.org/">Online Literature Library</A>.
+              to="http://www.literature.org/authors/darwin-charles/the-origin-of-the-species/">online version</a>
+          available at the classics section of the <A to="http://www.literature.org/">Online Literature Library</a>.
         </P>
 
         <p align="justify">Dawkins, Richard; "The Blind Watchmaker" (1986).</P>

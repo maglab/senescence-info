@@ -48,8 +48,8 @@
                                                                           border="0"></a></p></blockquote>
 
           <p align="justify">In no event shall you, the user, commercialize contents or information from <b>senescence.info</b>
-            without prior written consent from <A href="http://jp.senescence.info">Jo&#227o Pedro de Magalh&#227es</a>,
-            the copyright holder</a>.</p>
+            without prior written consent from <a href="http://jp.senescence.info">Jo&#227o Pedro de Magalh&#227es</a>,
+            the copyright holder.</p>
 
           <p align="justify">Misuse of <b>senescence.info</b> by, for example, hacking or attempting to generate spam,
             will result in your IP being blocked and, depending on the gravity of the infringement, may result in legal

@@ -36,48 +36,48 @@
         <div ref="cure">
           <blockquote><H2>Can Aging Be Cured?</H2></blockquote>
 
-          <p align="justify"><a href="aging_definition.html">Aging</a> is a "barbaric phenomenon that shouldn't be
-            tolerated in polite society," says University of Cambridge gerontologist Aubrey de Grey. However, the more
+          <p align="justify"><router-link to="/ageing-definition">Aging</router-link> is a "barbaric phenomenon that shouldn't be
+            tolerated in polite society," says University of Cambridge gerontolo gist Aubrey de Grey. However, the more
             than 50% increase in longevity of the past century was due mainly to advancements in the war on infectious
-            diseases, not aging. Present <a href="antiaging_science.html">anti-aging treatments</a> do not slow the
+            diseases, not aging. Present <router-link to="/anti-ageing-medicine">anti-aging treatments</router-link> do not slow the
             aging process and do not extend lifespan more than quitting smoking, exercising, eating a good diet, or
             heeding ordinary medical advice. The only way to achieve another 50% increase in human longevity is by
             discovering ways to retard the aging process itself.</p>
 
-          <p align="justify">Although human aging remains a largely mysterious process, and scientists still <a
-              href="aging_theories.html">debate why we age</a>, there are reasons to think human aging can be
+          <p align="justify">Although human aging remains a largely mysterious process, and scientists still <router-link
+              to="/ageing-theories">debate why we age</router-link>, there are reasons to think human aging can be
             manipulated, maybe even cured like a disease. Not only some animals live much longer than humans--recent
-            estimates that bowhead whales may live over 200 years are a good example--but several higher <a
-                href="aging_animals.html">animals appear not to age</a>. None are mammals, though, but examples include
+            estimates that bowhead whales may live over 200 years are a good example--but several higher <router-link
+                to="/ageing-animals">animals appear not to age</router-link>. None are mammals, though, but examples include
             vertebrates such as certain turtles that do not show signs of aging even after decades of study. While the
-            reasons behind the apparent absence of aging in these species remain a subject of debate, they show how <a
-                href="aging_animals.html">Nature</a> has already devised ways to make animals live much longer and age
+            reasons behind the apparent absence of aging in these species remain a subject of debate, they show how <router-link
+                to="/ageing-animals">Nature</router-link> has already devised ways to make animals live much longer and age
             slower than humans. Like the Wright brothers and other early flight pioneers conducted detailed observations
             of birds and were inspired by them, so can we be inspired by how aging is much slower, and maybe even
             absent, in certain animals. Now the challenge for biomedical research is to do the same in humans.</p>
 
-          <p align="justify">In recent years, many advances in anti-aging science have been made at the <a
-              href="cell_aging.html">cellular level</a>. Normal human cells have a built-in program that prevents them
-            from replicating more than a predetermined number of times. Using the enzyme <a
-                href="telomeres_telomerase.html">telomerase</a>, it is possible to genetically modify human cells to
-            overcome their programming and make them divide indefinitely. <a href="antiaging_science.html">Drugs
-              targeting telomerase</a> are also being developed, even though telomerase alone does not solve the aging
-            problem: Mice genetically modified to produce lots of this enzyme do not live longer. Still, as <a
-                href="aging_cure.html">detailed elsewhere</a>, telomerase and similar findings observed in simple <a
-                href="aging_models.html">model organisms</a> like yeast showcase that aging at the cellular level can be
+          <p align="justify">In recent years, many advances in anti-aging science have been made at the <router-link
+              to="/cell-ageing">cellular level</router-link>. Normal human cells have a built-in program that prevents them
+            from replicating more than a predetermined number of times. Using the enzyme <router-link
+                to="/telomeres-telomerase">telomerase</router-link>, it is possible to genetically modify human cells to
+            overcome their programming and make them divide indefinitely. <router-link to="/anti-ageing-medicine">Drugs
+              targeting telomerase</router-link> are also being developed, even though telomerase alone does not solve the aging
+            problem: Mice genetically modified to produce lots of this enzyme do not live longer. Still, as <router-link
+                to="/ageing-cure">detailed elsewhere</router-link>, telomerase and similar findings observed in simple <router-link
+                to="/ageing-models">model organisms</router-link> like yeast showcase that aging at the cellular level can be
             stopped.</p>
 
           <p align="justify">Genetic engineering can more than triple the longevity of worms and increase by almost 50%
             the lifespan of flies. Results are also promising in mammals: Scientists have extended longevity in mice by
-            up to 50% through <a href="genetics_of_aging.html">genetic interventions</a>. If such outcomes could be
+            up to 50% through <router-link to="/genetics-of-ageing">genetic interventions</router-link>. If such outcomes could be
             achieved in humans, then it would come to be normal to have grandparents more than 120 years old. Several <a
-                href="http://whoswho.senescence.info">companies and academic research groups</a> are conducting research
-            aimed at retarding aging by targeting genes and pathways shown in <a href="aging_models.html">model
-              organisms</a> to regulate aging. If the breakthroughs of recent years are anything to go by, it is likely
+                to="http://whoswho.senescence.info">companies and academic research groups</a> are conducting research
+            aimed at retarding aging by targeting genes and pathways shown in <router-link to="/ageing-models">model
+              organisms</router-link> to regulate aging. If the breakthroughs of recent years are anything to go by, it is likely
             that we will see several-fold longevity increases in mice within the next decade or so.</p>
 
-          <p align="justify">Achieving similar results in humans will be harder: Scientists have already identified <a
-              href="genetics_of_aging.html">genes that appear to accelerate human aging</a>, but they have yet to find
+          <p align="justify">Achieving similar results in humans will be harder: Scientists have already identified <router-link
+              to="/genetics-of-ageing">genes that appear to accelerate human aging</router-link>, but they have yet to find
             genes with the opposite effect. Variants in human genes have been shown to have modest effects on longevity.
             With the sequence of the human genome and the decreasing costs of sequencing more genomes, we are now in a
             better position to find out more about the genetics aging in animals as well as in humans. Drawing from the
@@ -94,20 +94,20 @@
         <div ref="shape">
           <blockquote><H2>Shaping Up for Long Life</H2></blockquote>
 
-          <p align="justify">One method available today might delay human aging: <a href="caloric_restriction.html">Caloric
-            restriction</a>, which simply means a diet with fewer calories that still delivers the required nutritional
+          <p align="justify">One method available today might delay human aging: <router-link to="/caloric-restriction">Caloric
+            restriction</router-link>, which simply means a diet with fewer calories that still delivers the required nutritional
             content. Experiments have shown longevity increases of more than 50% in certain mammals and other beneficial
             effects, but most people find it hard to stick to such a diet and there are negative side-effects. If
             science is to extend human longevity, it will have to do so by extending the healthy lifespan while
             preserving youth and vitality, not by prolonging the time spent in age-related disability. The extra years
             must allow future grandparents to enjoy life rather than just cling to it.</p>
 
-          <p align="justify">It is unlikely, but possible, that a <a href="aging_cure.html">cure for aging</a> and
+          <p align="justify">It is unlikely, but possible, that a <router-link to="/ageing-cure">cure for aging</router-link> and
             associated age-related diseases will appear suddenly. Since scientists have already developed new genetic
             interventions to delay aging in animals, therapies aimed at human aging are expected to gradually progress
             in power and efficiency. If a therapy could slow human aging by 50%, for instance, we would have 30 or 40
             more years of life. In that time, new discoveries could be made that would allow us to live even longer. The
-            cycle could continue until a true <a href="aging_cure.html">cure for aging</a> was discovered. "It's
+            cycle could continue until a true <router-link to="/ageing-cure">cure for aging</router-link> was discovered. "It's
             possible that some people alive now may still be alive 400 years from now," claims gerontologist Michal
             Jazwinski of Louisiana State University Health Sciences Center. But what would be the consequences of
             extended human longevity or a real cure for aging?</p>
@@ -124,8 +124,8 @@
             discoveries but also changes in technology and attitudes as people strive to reduce or avoid risk and make
             dangerous activities safer. </p>
 
-          <p align="justify">Our first instinct when we consider a world without aging might be a concern about <a
-              href="immortal_society.html">overpopulation</a>. Yet we cannot see breakthroughs in aging research as
+          <p align="justify">Our first instinct when we consider a world without aging might be a concern about <router-link
+              to="/immortality-society">overpopulation</router-link>. Yet we cannot see breakthroughs in aging research as
             isolated events. Technology evolves; civilization evolves. For example, worldwide agricultural output has
             more than doubled in the past 50 years. In fact, future problems resulting from overpopulation have been
             widely touted for decades, most famously in the 1970s ("Mathusianism"). These warnings have always proven
@@ -145,21 +145,21 @@
             Castro--will remain in power much longer than they would if they faded away or died because of aging.
             Prisoners convicted of violent crimes would eventually be released and, as they would keep young bodies,
             could continue to pose a threat. A more in-depth discussion of possible concerns of curing aging is included
-            <a href="physical_immortality_myths.html">elsewhere</a>. </p>
+            <router-link to="/physical-immortality-myths">elsewhere</router-link>. </p>
 
-          <p align="justify">Delayed aging will lead to huge <a href="immortal_society.html">social changes</a>, and
+          <p align="justify">Delayed aging will lead to huge <router-link to="/immortality-society">social changes</router-link>, and
             perhaps even to some bizarre possibilities: your children dating your grandparents' friends, for example, or
             your children looking younger than your great-grandchildren. Age stratification in the population will
             change or disappear, and with it, many of our preconceived ideas. But civilization continually evolves to
             encompass new ideas and new possibilities. Most important of all, in defeating aging we will have eliminated
-            one of the <a href="death_and_aging_fears.html">greatest causes of suffering, pain and death</a>. </p>
+            one of the <router-link to="/death-and-ageing-fears">greatest causes of suffering, pain and death</router-link>. </p>
 
           <p align="justify">Elderly people in an aging-free tomorrow will be extremely productive, changing careers
             from time to time throughout their lives. They will have the experiences of a lifetime--or two lifetimes, or
             three, or twenty--combined with a young physique. The burden of age-related diseases on health care will
             disappear. That is why the grandparents of tomorrow will live longer and happier lives. You and I are the
-            grandparents of tomorrow. With hard work, <a href="gerontology.html">scientific research</a>, <a
-                href="help_fight_aging.html">anti-aging advocacy</a> and a bit of luck, we may be around for centuries
+            grandparents of tomorrow. With hard work, <router-link to="/gerontology">scientific research</router-link>, <router-link
+                to="help_fight_aging.html">anti-aging advocacy</router-link> and a bit of luck, we may be around for centuries
             to come.</p>
 
           <hr size="1" width="60%">

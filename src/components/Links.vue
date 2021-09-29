@@ -3,7 +3,7 @@
     <h2>Links on Aging</h2>
 
 <!--    <blockquote>-->
-<!--      <p align="justify">Below are useful links related to basic aging research and <a href="gerontology.html">gerontology</a>. Feel free to <A href="http://jp.senescence.info/contact.php">contact me</A> if you wish to suggest a link.</p></blockquote>-->
+<!--      <p align="justify">Below are useful links related to basic aging research and <router-link href="/gerontology">gerontology</a>. Feel free to <A href="http://jp.senescence.info/contact.php">contact me</A> if you wish to suggest a link.</p></blockquote>-->
 
 <!--    <hr width="80%" size="1">-->
 
@@ -43,7 +43,7 @@
       <b-list-group-item href="http://agingmice.jax.org/">The Aging Center at The Jackson Laboratory</b-list-group-item>
       <b-list-group-item href="http://www.buckinstitute.org/">The Buck Institute for Research on Aging</b-list-group-item>
       <b-list-group-item href="http://www.tmig.or.jp/">Tokyo Metropolitan Institute of Gerontology</b-list-group-item>
-      <b-list-group-item href="http://www.med.umich.edu/geriatrics/index.htm">University of Michigan Geriatrics Center, including the <a href="http://www.med.umich.edu/geriatrics/research/IoG2.htm">Institute of Gerontolog</a></b-list-group-item>
+      <b-list-group-item href="http://www.med.umich.edu/geriatrics/index.htm">University of Michigan Geriatrics Center, including the <a href="http://www.med.umich.edu/geriatrics/research/IoG2.htm">Institute of Gerontology</a></b-list-group-item>
 
     </b-list-group>
     <br>
@@ -89,21 +89,6 @@
       <b-list-group-item href="http://www.sens.org/">SENS Foundation</b-list-group-item>
     </b-list-group>
 
-
-<!--  </blockquote><p><strong>Informational Websites</strong></p><blockquote>-->
-
-<!--    <p><a href="http://www.agelessanimals.org/">Ageless Animals</a></p>-->
-<!--    <p><A href="http://www.agingstats.gov/">AgingStats.Gov</A>; aging-related statistics.</p>-->
-<!--    <p><a href="http://www.crsociety.org/">CR Society</a></p>-->
-<!--    <p><a href="http://www.fightaging.org/">Fight Aging!</a>; excellent blog and advocacy for life-extension.</p>-->
-<!--    <p><a href="http://www.grg.org/">Gerontology Research Group</a></P>-->
-<!--    <p><A href="http://geroscience.com/">Geroscience</A></p>-->
-<!--    <p align="justify"><A href="http://www.innovitaresearch.org/index.html">Innovita Research Foundation</A></p>-->
-<!--    <p><A href="http://ouroboros.wordpress.com/">Ouroboros</A>; blog on the biology of aging.</p>-->
-<!--    <p><A href="http://www.progeriaresearch.org/">Progeria Research Foundation</A></p>-->
-<!--    <p><A href="http://sageke.sciencemag.org">Science of Aging Knowledge Environment (SAGE KE) Archive Site</A>; SAGE KE was an online journal associated with <a href="http://www.sciencemag.org">Science Magazine</a>.</p>-->
-
-<!--  </blockquote>-->
   </div>
 </template>
 

@@ -4,29 +4,29 @@
     <b-row class="text-left">
       <b-col cols="2">
         <div class="sidebar">
-        <b-card border-variant="light">
-        <b-nav vertical>
-          <b-nav-item @click="goto('fear')">Fearing Death</b-nav-item>
-          <b-nav-item @click="goto('immortality')">Immortality</b-nav-item>
-          <b-nav-item @click="goto('purpose')">Purpose</b-nav-item>
-<!--          <b-nav-item @click="goto('senescence')">Senescence.info</b-nav-item>-->
-        </b-nav>
-        </b-card>
+          <b-card>
+            <b-nav vertical>
+              <b-nav-item @click="goto('fear')">Fearing Death</b-nav-item>
+              <b-nav-item @click="goto('immortality')">Immortality</b-nav-item>
+              <b-nav-item @click="goto('purpose')">Purpose</b-nav-item>
+              <!--          <b-nav-item @click="goto('senescence')">Senescence.info</b-nav-item>-->
+            </b-nav>
+          </b-card>
         </div>
       </b-col>
       <b-col>
         <div class="maglabquote">
-          <b-card border-variant="light" class="text-center" >
+          <b-card class="text-center">
 
             <p>"The meaningless absurdity of life is the only incontestable knowledge accessible to man."</p>
             <footer class="blockquote-footer">
               Leo Tulsoy
             </footer>
 
-        </b-card>
+          </b-card>
         </div>
         <br>
-        <div class="div" ref="fear">
+        <div ref="fear" class="div">
           <h2>Fearing Death and Curing Aging</h2>
           <blockquote><p align="justify">You are going to die. It may take some time, but not too long since most people
             do not live to be 100 and very few live more than 110 years. You, like everyone else, suffer from aging and
@@ -34,7 +34,7 @@
 
             <p align="justify"><em>Keywords:</em> anti-aging, biogerontology, dying, immortalist, life-extension,
               mortality, rejuvenation</p></blockquote>
-            <hr>
+
           <!--          <p><IMG src="cross.gif" width="860" height="27" alt="Death is the ultimate prison"></p>-->
           <p align="justify">To say I am afraid to die is an understatement; I am absolutely terrified of death, and I'm
             not embarrassed at all to admit it. The way I am unable to conceive the nothingness that happens after death
@@ -55,19 +55,19 @@
             instead of being ruled by this debilitating disease. I want to cure aging because otherwise I will die.
             Eradicating death must be our purpose. I don't know if I will succeed, but I know I will not quit since to
             quit is to die.</p>
-          <div class="maglabquote">
-          <b-card border-variant="light" class="text-center" >
+          <div class='maglabquote'>
+            <b-card class="text-center">
 
               <p>Death is an imposition on the human race, and no longer acceptable."</p>
               <footer class="blockquote-footer">
                 Alan Harrington
               </footer>
 
-          </b-card>
+            </b-card>
           </div>
         </div>
-          <br>
-          <div ref = 'immortality'>
+        <br>
+        <div ref='immortality'>
           <h2>Immortality</h2>
           <p align="justify">Assuming you are lucky enough to live a long life and suffer from aging, chances are your
             future will entail significant pain, frailty and diseases. Chief among concerns of elderly adults are
@@ -80,27 +80,27 @@
             immortality. I don't claim it will be easy or even possible. All I claim is that I will try. The first, most
             prominent obstacle to achieve immortality is aging, and so I chose an <a
                 href="http://pcwww.liv.ac.uk/~aging/">academic career as a gerontologist</a>. I hope my work and ideas
-            can be useful for the understanding and control of human aging. As <a href="future_grandparents.html">discussed
-              elsewhere</a>, curing aging is a daunting but not impossible task.</P>
-            <div class="maglabquote">
-            <b-card border-variant="light" class="text-center" >
+            can be useful for the understanding and control of human aging. As <router-link to="/future-grandparents">discussed
+              elsewhere</router-link>, curing aging is a daunting but not impossible task.</P>
+          <div class="maglabquote">
+            <b-card class=text-center>
 
               <p>Obstacles are those frightful things you see when you take your eyes off your goal."</p>
               <footer class="blockquote-footer">
                 Henry Ford
               </footer>
 
-          </b-card>
-            </div>
+            </b-card>
           </div>
+        </div>
         <div ref="purpose">
           <h2>Purpose</h2>
           <br>
           <p align="justify">Back in 1997 I started <strong>senescence.info</strong> as a way of showing my commitment
             and dedication to life, to eternal life. With time, ironically the driving force of the enemy I want to
-            conquer, <strong>senescence.info</strong> has become a portal for aging research with <a
-                href="gerontology_tutorials.html">tutorials</a> mixed with deeper sociological and <a
-                href="gerontology.html">scientific essays</a>. So please read on and do not be more afraid of life than
+            conquer, <strong>senescence.info</strong> has become a portal for aging research with <router-link
+                to="/gerontology-tutorials">tutorials</router-link> mixed with deeper sociological and <router-link
+                to="/gerontology">scientific essays</router-link>. So please read on and do not be more afraid of life than
             of death.</P>
 
           <p align="justify">I hope <strong>senescence.info</strong> can also make people aware of the problem that is
@@ -126,26 +126,24 @@
             highest objective is to discover the secrets of this infinite universe. Perhaps it's a dream, but the future
             is made of dreams, and I believe in the beauty of my dreams.</p>
           <div class="maglabquote">
-          <b-card class="text-center" border-variant="light">
-
+            <b-card class="text-center">
               <p>"There are three requisites for growth without bound, and only three: the will
                 to remake oneself; the genius to survive; and the strength to suffer."</p>
               <footer class="blockquote-footer">
                 David Zindell
               </footer>
 
-          </b-card>
+            </b-card>
           </div>
           <br>
         </div>
 
 
-          <div align="center"><p><img src="../assets/vision.jpg" alt="May dreams become the future" width="393"
-                                      height="333" border="1"></p>
-            <p>May dreams become the future</P></div>
+        <div align="center"><p><img alt="May dreams become the future" border="1" height="333"
+                                    src="../assets/vision.jpg" width="393"></p>
+          <p>May dreams become the future</P></div>
 
-
-
+        <hr>
 
 
       </b-col>
@@ -159,7 +157,7 @@
 
 <script>
 export default {
-  name: 'Vision',
+  name: 'DeathFears',
   methods: {
     goto(refName) {
       var element = this.$refs[refName];
@@ -172,22 +170,16 @@ export default {
 </script>
 
 
-
 <style>
 h2 {
   padding-top: 30px;
 }
+
 .sidebar {
   position: -webkit-sticky;
   position: sticky;
   top: 3%;
 }
 
-.maglabquote {
-  display: flex;
-  /*align-items: ;*/
-  /*justify-content: center;*/
-  max-width: 60rem;
-}
 </style>
 

@@ -14,20 +14,21 @@
 
           <!-- Navbar dropdowns -->
           <b-nav-item-dropdown text="About" >
-            <b-dropdown-item><router-link to="/vision">A Vision for senescence.info</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to="/death-and-ageing-fears">A Vision for senescence.info</router-link></b-dropdown-item>
             <b-dropdown-item href="http://jp.senescence.info/">Author Information</b-dropdown-item>
             <b-dropdown-item><router-link to="/disclaimer">Disclaimer, Copyright and Citation</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/external-links">External Links</router-link></b-dropdown-item>
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown text="Introduction" >
-            <b-dropdown-item><router-link to="/grandparents">The Grandparents of Tomorrow</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to="/future-grandparents">The Grandparents of Tomorrow</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/anti-ageing-medicine">Anti-Ageing Medicine</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/physical-immortality-myths">Should we Cure Ageing?</router-link></b-dropdown-item>
-            <b-dropdown-item><router-link to="/how-to">How to Become a Biogerontologist</router-link></b-dropdown-item>
+            <b-dropdown-item><router-link to="/biogerontology-career">How to Become a Biogerontologist</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/books">Biology of Ageing Books</router-link></b-dropdown-item>
           </b-nav-item-dropdown>
-          <b-nav-item-dropdown text="Biology of Ageing" >
+          <b-nav-item-dropdown text="Biology of Ageing">
+            <b-dropdown-item><router-link to="/gerontology">Gerontology</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/ageing-definition">What is Ageing?</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/ageing-animals">Animals and Ageing</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to="/comparative-biology">Comparative Biology of Ageing</router-link></b-dropdown-item>
@@ -57,6 +58,8 @@
             <b-dropdown-item><router-link to='/help-fight-ageing'>How to Help Fight Ageing</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to='/immortality-society'>Immortality and Society</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to='/ageing-glossary'>Glossary</router-link></b-dropdown-item>
+            <b-dropdown-item href="http://whoswho.senescence.info/">Who's Who in Gerontology</b-dropdown-item>
+            <b-dropdown-item><router-link to='/bibliography'>Bibliography</router-link></b-dropdown-item>
             <b-dropdown-item><router-link to ='/ageing-links'>Links</router-link></b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item href="http://jp.senescence.info/contact.php">Contact</b-nav-item>

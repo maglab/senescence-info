@@ -47,14 +47,14 @@
           <p align="justify">Why cannot a mouse live more than 5 years while humans and whales can live over 100? Why do
             some animals appear not to suffer from aging? In the end, why do different species age at different paces?
             Many researchers have asked these questions (Austad, 1997a & 2005; Warner et al., 2002; de Magalhaes, 2003).
-            So far, and even though this topic will be discussed in other essays, including at the <a
-                href="genetics_of_aging.html">genetic level</a>, the answer has eluded us. Nonetheless, there some
+            So far, and even though this topic will be discussed in other essays, including at the <router-link
+                to="/genetics-of-ageing">genetic level</router-link>, the answer has eluded us. Nonetheless, there some
             general trends have been reported and some factors shown to correlate with maximum lifespan.</P>
 
-          <p align="justify">As <a href="aging_definition.html">mentioned before</a>, quantifying aging is a difficult,
+          <p align="justify">As <router-link to="/ageing-definition">mentioned before</router-link>, quantifying aging is a difficult,
             controversial task. Quantifying the rate of aging for a given species can be done through the MRDT, but
-            there are some caveats: MRDT calculations are available for only a fraction of species and, as <a
-                href="aging_animals.html">shown before</a>, are not perfect estimates of rate of aging. Consequently,
+            there are some caveats: MRDT calculations are available for only a fraction of species and, as <router-link
+                to="/ageing-animals">shown before</router-link>, are not perfect estimates of rate of aging. Consequently,
             most researchers use maximum lifespan (<em>tmax</em>) as an estimate of rate of aging. It has been argued
             that <em>tmax</em> represents the genetic potential for longevity of each species and is related to a
             species' rate of aging (Cutler, 1979; Allman et al., 1993; Finch and Pike, 1996). Even though there are
@@ -80,14 +80,14 @@
                                       height="322" src="../assets/mass_longevity.gif" width="567"></p></div>
 
           <blockquote><p align="justify"><strong>Figure 1:</strong> Correlation between maximum lifespan (<em>tmax</em>)
-            and typical adult body mass (<em>M</em>) using all species (<em>n</em> = 1,701) present in <a
-                href="http://genomics.senescence.info/species/">AnAge</a> build 8. Plotted on a logarithmic scale.</P>
+            and typical adult body mass (<em>M</em>) using all species (<em>n</em> = 1,701) present in <router-link
+                to="http://genomics.senescence.info/species/">AnAge</router-link> build 8. Plotted on a logarithmic scale.</P>
           </blockquote>
 
           <p align="justify">At present, the simplest and most likely explanation for the allometry of lifespan is
             related to ecological constraints: smaller animals tend to be more prone to predation and thus are expected
-            to have higher extrinsic mortality rates, a shorter <em>tmax</em>, and a faster aging process--as <a
-                href="evolution_of_aging.html">debated ahead</a> in more detail. For example, the ability to fly gives
+            to have higher extrinsic mortality rates, a shorter <em>tmax</em>, and a faster aging process--as <router-link
+                to="/evolution-of-ageing">debated ahead</router-link> in more detail. For example, the ability to fly gives
             most birds and bats the capacity to evade predators. Consequently, it seems that body mass is a determinant
             of ecological opportunities and habitat that impacts on mortality, which consequently influences the
             evolution of longevity and aging (Stearns, 1992). To date, there is no evidence to suggest that some unknown
@@ -99,7 +99,7 @@
             done with certain statistical procedures. In fact, body mass appears to correlate with many life history
             events besides maximum lifespan: gestation period, time to maturity, etc. Therefore, researchers studying
             whether a given factor correlates with <em>tmax</em> or not must play close attention to the impact of body
-            size. As I discuss in the context of <a href="aging_theories.html">theories of aging</a>, this has not
+            size. As I discuss in the context of <router-link to="/ageing-theories">theories of aging</router-link>, this has not
             always been done, however, sometimes resulting in erroneous interpretations of experimental results.</P>
         </div>
         <h2>Brain Mass</h2>
@@ -119,15 +119,15 @@
             "little people" may also be longer-lived (Krzisnik et al., 1999). Therefore, it appears that while on one
             hand bigger species tend to be longer-lived, within a given species smaller individuals--in protected
             environments--tend to live longer. The possible physiological and genetic reasons for the latter phenomenon
-            and implications for our understanding of aging are debated in <a href="programmed_aging.html">another
-              essay</a>.</P>
+            and implications for our understanding of aging are debated in <router-link to="programmed_aging.html">another
+              essay</router-link>.</P>
         </div>
         <div ref="metabolic">
           <h2>Metabolic Rate</h2>
         <p align="justify">Another relationship long studied in gerontology is Kleiber's rule that relates maximum
           lifespan with metabolic rate (Kleiber, 1975; Gosden, 1996, pp. 103-110). (Kleiber's rule actually originates
-          in a theory of aging called the "rate of living theory," which is discussed in more detail <a
-              href="causes_of_aging.html">elsewhere</a>.) It can be argued, for instance, that reptilians and amphibians
+          in a theory of aging called the "rate of living theory," which is discussed in more detail <router-link
+              to="causes_of_aging.html">elsewhere</router-link>.) It can be argued, for instance, that reptilians and amphibians
           live longer because they have decreased metabolic rates since they are cold-blooded animals. Similarly, if the
           metabolic rate, the rate at which reactions occur in cells is higher in, for instance, mice than in humans
           then maybe that is why mice live less than humans (Prinzinger, 2005).</p>
@@ -161,21 +161,21 @@
           of body mass, age at sexual maturity correlates with average and maximum adult lifespan in many taxa,
           including in mammals (Charnov, 1993; Prothero, 1993; de Magalhaes et al., 2007a). In other words, the longer
           it takes for a given mammalian species to reach sexual maturity, the longer it can live afterwards. There are
-          some exceptions, however, such as the male Anthechinus which is <a href="aging_animals.html">mentioned
-            elsewhere</a>. One hypothesis is that there is a mechanistic link between pace of development and pace of
-          aging, as discussed in <a href="programmed_aging.html">another essay</a>. It is also worth mentioning that
+          some exceptions, however, such as the male Anthechinus which is <router-link to="/ageing-animals">mentioned
+            elsewhere</router-link>. One hypothesis is that there is a mechanistic link between pace of development and pace of
+          aging, as discussed in <router-link to="programmed_aging.html">another essay</router-link>. It is also worth mentioning that
           each organism's body-plan is largely determined by its genetic program, and the body-plan can have a powerful
           influence on longevity, as shown by aphagy in some insects or the semelparity of species like the salmon.
           Different species could well be influenced by development in different ways: the relation (adult phase)/(total
-          lifespan) shows a wide variation, which is in accordance with the several aging phenotypes found in <a
-              href="aging_animals.html">nature</a>. So development and its consequential body-plan can influence aging
+          lifespan) shows a wide variation, which is in accordance with the several aging phenotypes found in <router-link
+              to="/ageing-animals">nature</router-link>. So development and its consequential body-plan can influence aging
           to different degrees. The body-plan of mammals, for instance, may place indirect constraints on adult life but
           this could be regarded as a by-product of development. That said, age at maturity correlates strongly with
           <em>tmax</em> in mammals which hints that common regulatory mechanisms could be involved (de Magalhaes et al.,
           2007a). Though not as strongly, growth rates also correlate negatively with <em>tmax</em>; in other words,
           species that grow slower tend to live longer (de Magalhaes et al., 2007a). Likewise, growth rates correlate
           negatively with demographic rate of aging--not MRDT but a similar parameter estimated from the Weibull model
-          (Ricklefs, 2010). On the other hand, for <a href="evolution_of_aging.html">evolutionary reasons</a>,
+          (Ricklefs, 2010). On the other hand, for <router-link to="/evolution-of-ageing">evolutionary reasons</router-link>,
           development can be timed similarly to aging even if the relation between development and aging in mammals is
           indirect and minimal (Miller, 1999). Therefore, the causes for the relationship between developmental time and
           longevity remain a subject of debate, though it is clear that there is a strong correlation between them.</P>
@@ -196,14 +196,14 @@
           2008). Comparisons between nuclear genomes across species with different lifespans can also focus on
           identifying genes with patterns of evolution associated with longevity (de Magalhaes and Church, 2007). One
           genome-wide scan for genes associated with the evolution of longevity in mammals found evidence that proteins
-          involved in protein degradation, a process <a href="causes_of_aging.html">associated with aging</a>, are under
+          involved in protein degradation, a process <router-link to="causes_of_aging.html">associated with aging</router-link>, are under
           selection in lineages where longevity increased (Li and de Magalhaes, 2013). Given the explosion of genomic
           data, these approaches are bound to become more powerful and reveal specific genes and patterns associated
-          with longevity. To facilitate comparative studies of aging, including in genomics, <a
-              href="http://pcwww.liv.ac.uk/~aging/">our lab</a> has developed the <a
-              href="http://genomics.senescence.info/species/">AnAge database</a> which features thousands of longevity
-          records for animals (reviewed in de Magalhaes et al., 2009b). As <a href="aging_cure.html">discussed
-            elsewhere</a>, I think this shift from comparing physiological traits into digital biology will have a major
+          with longevity. To facilitate comparative studies of aging, including in genomics, <router-link
+              to="http://pcwww.liv.ac.uk/~aging/">our lab</router-link> has developed the <router-link
+              to="http://genomics.senescence.info/species/">AnAge database</router-link> which features thousands of longevity
+          records for animals (reviewed in de Magalhaes et al., 2009b). As <router-link to="/ageing-cure">discussed
+            elsewhere</router-link>, I think this shift from comparing physiological traits into digital biology will have a major
           impact in furthering our knowledge of mechanisms of aging.</P>
         </div>
 

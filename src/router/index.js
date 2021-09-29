@@ -1,10 +1,7 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../components/Home.vue'
-import Vision from '../components/Vision.vue'
-import ForgotPassword from '../components/ForgotPassword.vue'
-import ResetPassword from '../components/ResetPassword.vue'
-import Author from '../components/Author'
+import VueRouter from 'vue-router';
+import Home from '../components/Home.vue';
+import DeathFears from "../components/DeathFears";
 import Disclaimer from '../components/Disclaimer'
 import ExtLinks from '../components/ExtLinks'
 import GrandParents from '../components/GrandParents'
@@ -28,6 +25,11 @@ import FightAgeing from "../components/FightAgeing";
 import Immortality from "../components/Immortality";
 import Glossary from "../components/Glossary";
 import Links from "../components/Links";
+import Bibliography from "../components/Bibliography";
+import Gerontology from "../components/Gerontology";
+import GerontologyTutorials from "../components/GerontologyTutorials";
+import WineChocolate from "../components/WineChocolate";
+import CalorieRestriction from "../components/CalorieRestriction";
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -39,25 +41,9 @@ export default new VueRouter({
       component: Home
     },
     {
-      path: '/vision',
-      name: 'Vision',
-      component: Vision
-    },
-    {
-      path: '/forgot-password',
-      name: 'ForgotPassword',
-      component: ForgotPassword
-    },
-    {
-      path: '/reset-password',
-      name: 'ResetPassword',
-      component: ResetPassword
-    },
-    {
-      path: '/author',
-      name: 'Author',
-      component: Author
-
+      path: '/death-and-ageing-fears',
+      name: 'DeathFears',
+      component: DeathFears
     },
     {
       path: '/disclaimer',
@@ -70,7 +56,7 @@ export default new VueRouter({
       component: ExtLinks
     },
     {
-      path: '/grandparents',
+      path: '/future-grandparents',
       name: 'Grandparents',
       component: GrandParents
 
@@ -86,7 +72,7 @@ export default new VueRouter({
       component: CureAgeing
     },
     {
-      path:'/how-to',
+      path:'/biogerontology-career',
       name:'HowTo',
       component: HowTo
     },
@@ -174,6 +160,31 @@ export default new VueRouter({
       path: '/ageing-links',
       name: 'Links',
       component: Links
+    },
+    {
+      path: '/bibliography',
+      name: 'Bibliography',
+      component: Bibliography
+    },
+    {
+      path: '/gerontology',
+      name: 'Gerontology',
+      component: Gerontology
+    },
+    {
+      path: '/gerontology-tutorials',
+      name: 'GerontologyTutorials',
+      component: GerontologyTutorials
+    },
+    {
+     path: '/wine-chocolate-long-life',
+     name: 'WineChocolate',
+     component: WineChocolate
+    },
+    {
+      path: '/caloric-restriction',
+      name: 'CalorieRestriction',
+      component: CalorieRestriction
     },
     { path: '*', redirect: '/home' }
   ]

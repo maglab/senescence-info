@@ -91,8 +91,8 @@
             a
             lot of controversy in what represents delayed aging.</p>
 
-          <p align="justify">So how can we determine whether a given intervention delays aging? Based on my <a
-              href="aging_definition.html">definition of aging</a>, a given intervention to be accepted as anti-aging
+          <p align="justify">So how can we determine whether a given intervention delays aging? Based on my <router-link
+              to="/ageing-definition">definition of aging</router-link>, a given intervention to be accepted as anti-aging
             must
             demonstrate that the onset or pace of multiple age-related changes, including pathologies, is delayed. In
             addition, while accurately quantifying the rate of aging is impossible, one method to estimate the rate of
@@ -114,8 +114,8 @@
           <p align="justify">To complicate matters even further, because studying aging in humans is extremely expensive
             and time-consuming, it is virtually impossible to test whether a given intervention or product delays aging
             in
-            humans and thus testing whether a product impacts on aging is usually done in <a href="aging_models.html">animal
-              models</a>. Because animals may or may not be representative of human biology, interpreting the
+            humans and thus testing whether a product impacts on aging is usually done in <router-link to="/ageing-models">animal
+              models</router-link>. Because animals may or may not be representative of human biology, interpreting the
             life-extending effects of products in animals must be done with caution. Even studies in animals might be
             artifacts of particular experimental conditions. For example, one of the largest increases in lifespan (44%)
             by a product was obtained by feeding worms a synthetic antioxidant called EUK-8 (Melov et al., 2000). Other
@@ -124,16 +124,16 @@
             increase antioxidant levels (Keaney et al., 2004), which suggests that possibly very peculiar conditions are
             necessary for this particular product to increase lifespan.</p>
 
-          <p align="justify">As <a href="death_and_aging_fears.html">detailed elsewhere</a>,
-            <strong>senescence.info</strong> is not a medical website. It is a website about aging, namely about <a
-                href="aging_definition.html">the whole aging process</a> with a special emphasis on human aging, and
+          <p align="justify">As <router-link to="/death-and-ageing-fears">detailed elsewhere</router-link>,
+            <strong>senescence.info</strong> is not a medical website. It is a website about aging, namely about <router-link
+                to="/ageing-definition">the whole aging process</router-link> with a special emphasis on human aging, and
             thus
             the following products are interpreted in view of their potential impact on the human aging process as a
             whole. Hopefully, I can demystify some of hype surrounding these products and, based on scientific evidence,
-            help clarify what they can and cannot do. In the same way I find it crucial to highlight progress and <a
-                href="future_grandparents.html">potential in aging research</a> and the possibility (no matter how
+            help clarify what they can and cannot do. In the same way I find it crucial to highlight progress and <router-link
+                to="/future-grandparents">potential in aging research</router-link> and the possibility (no matter how
             distant
-            and difficult) of <a href="future_grandparents.html">curing aging</a>, it is equally important to fight
+            and difficult) of <router-link to="/future-grandparents">curing aging</router-link>, it is equally important to fight
             false
             publicity, particularly in a field with such a fraudulent past like aging research. Given the numerous
             products in the recent past thought to be useful and later proven to have negative side-effects (e.g.,
@@ -143,10 +143,10 @@
         <div ref="restriction">
           <blockquote><H2>Caloric Restriction</H2></blockquote>
 
-          <p align="justify">The only known intervention that might be able to delay human aging is <a
-              href="caloric_restriction.html">caloric restriction</a> (CR). Given the large body of research on CR, and
-            the many products trying to emulate its effects, CR is discussed in its <a href="caloric_restriction.html">own
-              essay</a>.</p>
+          <p align="justify">The only known intervention that might be able to delay human aging is <router-link
+              to="/caloric-restriction">caloric restriction</router-link> (CR). Given the large body of research on CR, and
+            the many products trying to emulate its effects, CR is discussed in its <router-link to="/caloric-restriction">own
+              essay</router-link>.</p>
         </div>
         <blockquote><H2>Hormonal Therapies</H2></blockquote>
 
@@ -166,8 +166,8 @@
         <p align="justify">Studies in mice do not by and large suggest a beneficial role for GH. If any, they suggest a
           harmful role. Though one study found that a low-dose GH therapy increases lifespan in aged mice (Khansari and
           Gustad, 1991), mice genetically modified to produce lots of GH live less than controls while mice producing
-          less GH live longer (Coschigano et al., 2000; Laron, 2005). Of course, as mentioned above, studies in <a
-              href="aging_models.html">animals</a> are not always relevant to human biology. Nonetheless, the results in
+          less GH live longer (Coschigano et al., 2000; Laron, 2005). Of course, as mentioned above, studies in <router-link
+              to="/ageing-models">animals</router-link> are not always relevant to human biology. Nonetheless, the results in
           mice suggest that higher GH levels will not make you live longer. Studies in humans with a deficiency in GH
           signalling due to a defect in the GH receptor also suggest a strong cancer protection due to decreased GH
           signalling (Guevara-Aguirre et al., 2011). The human studies also hint at a sort of supernova effect: hGH
@@ -180,10 +180,10 @@
         <p align="justify">Insulin-like growth factor 1 (IGF-1) is another hormone that may play a role in aging and can
           be purchased as a supplement. IGF-1's production is induced by GH and, like GH, IGF-1's levels decline with
           age and, in mice, low levels of IGF-1 appear to correlate with longevity; mutations in mice that lower IGF-1
-          seem to extend lifespan, as <a href="programmed_aging.html">detailed elsewhere</a>. So, just like for hGH,
+          seem to extend lifespan, as <router-link to="programmed_aging.html">detailed elsewhere</router-link>. So, just like for hGH,
           IGF-1 injections could be counter-productive. In fact, there is some evidence that little people with low
           levels of IGF-1 live longer (Krzisnik et al., 1999). Interestingly, anti-aging therapies based on lowering
-          IGF-1 may be possible (Miller, 2005). As <a href="programmed_aging.html">mentioned elsewhere</a>, IGF-1 does
+          IGF-1 may be possible (Miller, 2005). As <router-link to="programmed_aging.html">mentioned elsewhere</router-link>, IGF-1 does
           appear to play a role in aging, but whether it can be used in anti-aging is pure speculation at this stage.
           Clearly, however, IGF-1 injections are unlikely to extend lifespan and, like hGH, may even be harmful.</p>
 
@@ -210,14 +210,14 @@
           menopause by protecting against heart disease and osteoporosis. On the other hand, it could increase risk of
           breast cancer and may lead to weight gain and thrombosis as side effects. There is a vast literature on the
           advantages and disadvantages of hormone replacement therapy, though this is outside the scope of <strong>senescence.info</strong>.
-          In the <a href="aging_definition.html">context of aging</a>, there is no evidence that estrogen is a viable
+          In the <router-link to="/ageing-definition">context of aging</router-link>, there is no evidence that estrogen is a viable
           anti-aging therapy. For men, testosterone has also been touted as anti-aging but, again, there is no evidence
           it has anti-aging benefits even if it might have some benefits like, say, increased sexual function and muscle
           mass (reviewed in Dominguez et al., 2009). </p>
         <div ref="antiox">
           <blockquote><H2>Antioxidants</H2></blockquote>
 
-          <p align="justify">One theory of aging is the <a href="causes_of_aging.html">free radical theory of aging</a>.
+          <p align="justify">One theory of aging is the <router-link to="causes_of_aging.html">free radical theory of aging</router-link>.
             Succinctly, when oxygen is used to make energy in human cells, it releases reactive compounds called free
             radicals, also called reactive oxygen species (ROS). To fight ROS, cells possess an array of defenses called
             antioxidants, many of which can be synthesized or extracted, purified, and then sold, generally in tablets,
@@ -227,7 +227,7 @@
             studies indicate that antioxidants do not slow aging although they can at times slightly increase longevity
             (Harman, 1968; Comfort et al., 1971; Heidrick et al., 1984; Holloszy, 1998; Saito et al., 1998). Vitamin C
             supplementation, for instance, does not affect lifespan in mice (Selman et al., 2006). Resveratrol, which is
-            discussed in more detail <a href="caloric_restriction.html">elsewhere</a>, and other red wine constituents
+            discussed in more detail <router-link to="/caloric-restriction">elsewhere</router-link>, and other red wine constituents
             can
             also act as antioxidants (Pervaiz, 2003) and might be protective agents of brain aging (Tredici et al.,
             1999;
@@ -253,9 +253,9 @@
         <div ref="telomere">
           <blockquote><H2>Telomere-Based Therapies</H2></blockquote>
 
-          <p align="justify">Telomerase is an enzyme that, at least in some cell lines, appears to overcome <a
-              href="cell_aging.html">cellular senescence</a> by extending the tips of the chromosomes called the
-            telomeres--for more details please see <a href="telomeres_telomerase.html">another essay</a>. Some have
+          <p align="justify">Telomerase is an enzyme that, at least in some cell lines, appears to overcome <router-link
+              to="/cell-ageing">cellular senescence</router-link> by extending the tips of the chromosomes called the
+            telomeres--for more details please see <router-link to="/telomeres-telomerase">another essay</router-link>. Some have
             argued
             that if telomerase can avoid aging in cells in vitro, maybe it can be used to combat human aging (Fossel,
             1996). A number of companies and labs are developing telomerase-based therapies to fight aging and at least
@@ -265,8 +265,8 @@
             health indicators in mice but it did not increase mean or maximum lifespan (de Jesus et al., 2011).</p>
 
           <p align="justify">Even though our knowledge of telomerase is still imperfect, I am skeptical such therapies
-            will succeed (de Magalhaes and Toussaint, 2004a). Firstly, as <a href="telomeres_telomerase.html">detailed
-              elsewhere</a>, mice expressing lots of telomerase do not live longer. Moreover, telomerase is important in
+            will succeed (de Magalhaes and Toussaint, 2004a). Firstly, as <router-link to="/telomeres-telomerase">detailed
+              elsewhere</router-link>, mice expressing lots of telomerase do not live longer. Moreover, telomerase is important in
             cellular proliferation yet many of our organs, such as the brain, are mostly composed of cells that do not
             proliferate. Hence, telomerase will do little to alleviate aging in these tissues. Lastly, there is ample
             evidence telomerase favors tumorigenesis and so telomerase-based therapies may foster cancer development.
@@ -288,8 +288,8 @@
           <blockquote><H2>Stem Cells</H2></blockquote>
 
           <p align="justify">In recent years stem cells have received widespread attention. This fame is partly merited
-            given the huge potential of stem cells for regenerative medicine, as <a href="engineering_aging.html">discussed
-              elsewhere</a>. The possibility of using stem cells to treat diseases of aging and for rejuvenation is also
+            given the huge potential of stem cells for regenerative medicine, as <router-link to="engineering_aging.html">discussed
+              elsewhere</router-link>. The possibility of using stem cells to treat diseases of aging and for rejuvenation is also
             tantalizing. Having said that, and while depletion/dysfunction of stem cells are thought to play a role in
             aging (e.g., see de Magalhaes and Faragher, 2008), there is no evidence that stem cell-based anti-aging
             treatments will work. Harvesting and/or preparing stem cells for treatments is complex and much work remains
@@ -326,18 +326,18 @@
             a number of labs and companies are now trying to target more specific downstream nodes of the pathway to
             develop anti-aging drugs without the side-effects of rapamycin (reviewed in de Magalhaes et al., 2012).</p>
 
-          <p align="justify">One gene that appears to influence aging in mice is <em>klotho</em>. As <a
-              href="programmed_aging.html">detailed elsewhere</a>, high levels of klotho increase lifespan by about 30%,
+          <p align="justify">One gene that appears to influence aging in mice is <em>klotho</em>. As <router-link
+              to="programmed_aging.html">detailed elsewhere</router-link>, high levels of klotho increase lifespan by about 30%,
             though it is not entirely clear if aging is delayed, and low levels appear to foster aging (Kuro-o et al.,
             1997). Human longevity has also been linked to allelic variants in this gene (Arking et al., 2002). Its
             functions are still largely a mystery but since the gene encodes one secreted form that acts as a hormone,
             it
             could be synthesized and presented as an anti-aging therapy. For now, however, we will just have to wait and
-            see. There are many other <a href="http://genomics.senescence.info/genes/">aging-associated genes</a> that
+            see. There are many other <router-link to="http://genomics.senescence.info/genes/">aging-associated genes</router-link> that
             hold promise for pharmaceutical intervention, and progress has been made in finding chemicals that can
-            modulate specific <a href="http://genomics.senescence.info/genes/">aging-associated genes</a> and thus
+            modulate specific <router-link to="http://genomics.senescence.info/genes/">aging-associated genes</router-link> and thus
             extend
-            lifespan (Ja et al., 2007), as also debated <a href="caloric_restriction.html">elsewhere</a>. On average,
+            lifespan (Ja et al., 2007), as also debated <router-link to="/caloric-restriction">elsewhere</router-link>. On average,
             however, it takes 12 years from discovery of molecular mechanisms to develop a drug, plus 10 years of tests
             to
             make a drug available. In the case of aging the timescale may be longer, though many companies trying to
@@ -371,8 +371,8 @@
 
           <p align="justify">One question you may ask me is whether I take any of these so-called "anti-aging" products
             or
-            supplements. The answer is no. I do not see evidence that any of these products, including <a
-                href="caloric_restriction.html">caloric restriction</a>, actually work; some might have health benefits
+            supplements. The answer is no. I do not see evidence that any of these products, including <router-link
+                to="/caloric-restriction">caloric restriction</router-link>, actually work; some might have health benefits
             but I am not convinced any can delay human aging. Besides, the aforementioned antioxidants and fish oil are
             good examples of the old idea that it is possible to purify the components of healthy foods to avoid having
             to
@@ -398,7 +398,7 @@
           <div align="center">
             <table cellpadding="10" cellspacing="10" width="100%">
               <tr>
-                <td>No, I am not under <a href="caloric_restriction.html">caloric restriction</a> and I am not a
+                <td>No, I am not under <router-link to="/caloric-restriction">caloric restriction</router-link> and I am not a
                   vegetarian.
                 </td>
                 <td><img alt="Eating at the Cheesecake Factory and the Longhorn" border="0" height="392"
@@ -413,7 +413,7 @@
         <blockquote><p align="justify"><strong>Disclaimer:</strong> The information on this page is for informational
           purposes only and should not be used as medical advice. If you wish to undergo any of these treatments or take
           any of the products described in this page, you should talk to your physician. I often make generalizations
-          that might not apply to your particular medical history. As <a href="disclaimer.html">with senescence.info</a>,
+          that might not apply to your particular medical history. As <router-link to="/disclaimer">with senescence.info</router-link>,
           use this information at your own risk.</p></blockquote>
 
 
