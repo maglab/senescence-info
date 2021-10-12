@@ -5,7 +5,6 @@
       <b-col class="text-left" cols="2">
         <div class="sidebar">
           <b-card-body class="text-center">
-            <b-card-title>Page Navigation</b-card-title>
             <b-link @click="goto('intro')">Introduction</b-link><br>
             <b-link @click="goto('availability')">Availability</b-link><br>
             <b-link @click="goto('challenges')">Challenges</b-link><br>

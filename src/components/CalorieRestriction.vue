@@ -6,12 +6,17 @@
           <b-card>
             <b-nav vertical>
               <b-nav-item @click="goto('intro')">Introduction</b-nav-item>
+              <b-nav-item @click="goto('animal')">Animal Models</b-nav-item>
+              <b-nav-item @click="goto('humans')">Humans</b-nav-item>
+              <b-nav-item @click="goto('mechanisms')">Mechanisms</b-nav-item>
+              <b-nav-item @click="goto('mimetics')">CR Mimetics and Resveratrol</b-nav-item>
+              <b-nav-item @click="goto('conclusions')">Conclusions</b-nav-item>
             </b-nav>
           </b-card>
         </div>
       </b-col>
       <b-col>
-
+        <div ref="intro">
         <h2>Caloric Restriction</h2>
 
         <blockquote>
@@ -22,7 +27,8 @@
         <hr width="80%" size="1">
 
         <p align="justify">The only known method that might be able to delay the human aging process as <router-link to="antiaging_science.html">defined</router-link> in <strong>senescence.info</strong> is CR. CR, as the name implies, consists of diminishing caloric-intake while maintaining a normal diet regarding other nutrients such as vitamins and minerals. There are different implementations and variants of CR such as protein restriction, food restriction, and intermittent fasting. Since reducing energy-intake is the best-studied intervention, the focus of this essay is on caloric restriction.</p>
-
+        </div>
+        <div ref="animal">
         <blockquote><H2>CR in Animal Models</H2></blockquote>
 
         <p align="justify">Several studies in animals have demonstrated the beneficial effects of CR, for example in lowering cholesterol and blood pressure, and its potential to delay the rate of aging. In particular, studies in mice and rats support the idea that CR delays the aging process and certain age-related diseases like type 2 diabetes and cancer. Life-extension in mice by CR can be higher than 40% and even greater increases have been reported in non-mammalian models (Weindruch et al., 1986; Weindruch and Walford, 1988; Fontana et al., 2010). CR can delay the entire aging phenotype, reducing the frequency of age-related diseases and decelerating aging. CR animals look younger and some tests suggest that they are physiologically younger than their age-matched controls. Demographic analyses also suggest that CR delays aging, at least in rats, by delaying the rate at which mortality increases with age (de Magalhaes et al., 2005). Though some results in rats suggest there may be a threshold, an age after which CR no longer significantly extends lifespan (Lipman et al., 1995), most results in fruit flies and mice suggest that CR quickly exerts its beneficial effects, even in old animals (Spindler, 2005).</p>
@@ -32,7 +38,8 @@
         <p align="justify">Although CR extends lifespan in several species, it does not extend lifespan in all species. For example, CR does not appear to extend the lifespan of the housefly (Cooper et al., 2004).  Moreover, some animals undergo torpor under CR and thus studying CR's long-term effects in such species is probably impossible.  Certainly, it may be argued that perhaps the right conditions for studying CR in these species have not been determined yet, but the fact remains that CR does not extend lifespan or delay aging in some species.</p>
 
         <p align="justify">It should also be noted that while CR can delay aging in mice, that is not true for all mouse strains (Forster et al., 2003). In particular, CR does not appear to extend average lifespan in wild-derived mice, even though it somewhat protects against cancer as observed in other mouse strains (Harper et al., 2006). This finding is relevant because, as detailed <router-link to="aging_models.html">elsewhere</router-link>, laboratory mice were adapted to laboratory conditions and thus may not be representative of the species. As such, the inability of CR to extend lifespan of wild-derived mice may suggest that CR is in part an artifact of breeding animals specifically for laboratory studies. Even in wild-derived mice, however, CR extends maximum lifespan (Harper et al., 2006). Because wild-derived mice are genetically heterogeneous, these results suggest that CR may be beneficial to some individuals--hence extending maximum lifespan--but detrimental to others--thus explaining the lack of increase in average lifespan.</p>
-
+        </div>
+        <div ref="humans">
         <blockquote><H2>CR in Humans</H2></blockquote>
 
         <p align="justify">In humans, there are no conclusive studies but some results suggest that CR may be beneficial, at least in some groups of people. One study found that CR has a protective effect against atherosclerosis in people (Fontana et al., 2004). Another study reported beneficial effects on cardiac function (Meyer et al., 2006) and yet another study found some benefits of CR in reducing weight and adiposity, though the benefits were similar to those obtained by exercising (Racette et al., 2006). CR may also improve memory in the elderly (Witte et al., 2009). In addition, CR appears to have beneficial effects on some biomarkers of longevity in overweight individuals (Heilbronn et al., 2006), though the observation that reducing calories is beneficial to overweight patients is not surprising. Finally, one 2-year study in nonobese humans found evidence of potential benefits in survival and disease risk factors (Ravussin et al., 2015).</p>
@@ -42,7 +49,8 @@
         <p align="justify">One study compared the high-calorie diet of Japanese Sumo wrestlers, who live about 56 years, with that of male Okinawans, who have a low-calorie diet (though are not calorie-restricted) and live about 77 years. Clearly, a high-calorie diet is unhealthy and decreases lifespan. By extrapolating from the male Okinawans to CR, the study estimated that the life-extension provided by CR for individuals already with a balanced nutrition would be less than 10% (Phelan and Rose, 2005). Others, too, have argued that CR will not significantly extend human lifespan in people who already live a healthy life (de Grey, 2005a). Overall, at the present time, there is no way of telling if CR works in humans or not and, if so, to what extent. It is arguable, however, that individuals with a healthy lifestyle will not greatly benefit from CR. In fact it has been suggested that while CR may have beneficial effects in adults this may not extend to lean people (Fontana and Klein, 2007).</p>
 
         <p align="justify">If it is possible that CR works in humans, then why is not CR a widespread treatment? The answer are side-effects (Hopkin, 2003). Personally I have never tried CR, but the following have been documented (Dirks and Leeuwenburgh, 2006), and told to me by individuals undergoing CR. First of all, there is the mental stress for being hungry all the time, which can lead to depression. Even in food restricted rats, depression- and anxiety-like behaviors have been observed (Jahng et al., 2007). Then, if you undergo CR, exercise may become impossible, though studies in mice indicate that exercise while on CR has only mild negative effects on longevity (Holloszy and Schechtman, 1991; Holloszy, 1997). CR also makes people feel less energetic, less alive. And finally there are the sexual problems: diminished libido is a common side-effect in people under CR and infertility is also possible. Please note, of course, that these problems need not occur all at the same time. Still, one can say CR might add some years to  life but it will not be a life worth living. Lastly, CR has been reported in mice to hinder their ability to fight infection (Sun et al., 2001; Gardner, 2005), and some evidence suggests that in patients with amyotrophic lateral sclerosis CR accelerates the onset of the disease (Mattson et al., 2007).</p>
-
+        </div>
+        <div ref="mechanisms">
         <blockquote><H2>Mechanisms of CR</H2></blockquote>
 
         <p align="justify">Although CR was discovered in the first half of last century (McCay et al., 1935), its mechanisms are largely unknown. Many hypotheses have been proposed and it is impossible to review them all. Briefly, some argue that the diminished energy intake forces an optimization of the metabolism. Since CR also delays development in mice, others say it slows down the entire <router-link to="/genetics-of-ageing">genetic program</router-link>, indirectly affecting aging (de Magalhaes and Church, 2005). CR's effects on several forms of <router-link to="/causes-of-ageing">cellular damage</router-link> have been reported but the results are inconclusive as far as the underlying mechanism is concerned. Interestingly, there have been experiments in mice that seem to mimic CR by disrupting certain hormonal levels. Basically, by diminishing certain hormones or their receptors scientists observed changes in animals similar to those observed under CR, <router-link to="/programmed-ageing">as described elsewhere</router-link> in more detail. Therefore, hormonal changes may play a role in CR. Nonetheless, many other genes have been <router-link to="http://genomics.senescence.info/genes/models.html">related to CR in model organisms</router-link> (Figure 1), including sirtuins which are discussed below. At present, it is safe to say that we do not know the mechanisms by which CR extends lifespan.</p>
@@ -51,7 +59,8 @@
 
         <blockquote>
           <p align="justify"><strong>Figure 1:</strong> Overview of CR-associated signaling and some of its key players. On one hand, endocrine changes, including those controlled by the brain, are crucial for CR-mediated effects. In turn, systemic changes trigger signaling cascades that involve several mechanisms, pathways and genes. Homologs of genes directly linked to CR life-extending effects in model organisms, from our <router-link to="http://genomics.senescence.info/diet/">GenDR database</router-link>, are highlighted with a blue halo. (Adapted from de Magalhaes et al., 2012).</P></blockquote>
-
+        </div>
+        <div ref="mimetics">
         <blockquote><H2>Potential CR Mimetics and Resveratrol</H2></blockquote>
 
         <p align="justify">Even though we do know the mechanisms of CR or if CR delays human aging, several scientists and companies are trying to develop products that mimic the effects of CR without the side-effects. It has been argued that maybe we will never know whether CR delays aging in humans or not, but we can know if CR mimetics improve health which would already be a significant breakthrough (Ingram et al., 2006). Many genes have been associated with the life-extending effects of CR (Figure 1), and our lab has developed <a href="http://genomics.senescence.info/diet/">GenDR</a>, the first database of such CR-related genes. Moreover, in the case of many drugs we do not need to know exactly how they work for them to work. Therefore, this is a growing area of research and also because obesity is a major health problem and since CR lowers body fat there is an overlap between therapies based on CR and therapies aimed at obesity and the metabolic syndrome (reviewed in de Magalhaes et al., 2012). In fact, some companies are trying to develop CR mimetics by developing products that curb appetite.</p>
@@ -76,7 +85,8 @@
         <p align="justify">Although serious negative side-effects of resveratrol have not been reported, it is difficult, if not impossible, to predict any negative long-term effects of this or virtually any other compound. For example, while eating grapefruit has been reported to help lose weight and reduce insulin levels (Fujioka et al., 2006), recent results suggest that grapefruit intake may increase the risk of breast cancer among postmenopausal women (Monroe et al., 2007). Therefore, caution is advised.</p>
 
         <p align="justify">Overall, like for many <router-link to="antiaging_science.html">other products</router-link> that can extend lifespan in animal models, even though resveratrol and the aforementioned compounds might have beneficial effects, there is no evidence that these products delay the process of aging in animal models and certainly not in humans. Although it is possible that some of these compounds are healthy, just like vegetables and fruits (like grapes) are healthy, or may have a positive effect on certain age-related diseases such as diabetes, there is at present no evidence they can delay, even if slightly, the human aging process.</p>
-
+        </div>
+        <div ref="conclusions">
         <blockquote><H2>Conclusions</H2></blockquote>
 
         <p align="justify">If you are serious about trying to delay aging then CR is, with our current knowledge, your only potential chance of success. It will likely not have such a marked effect as in rodents, particularly if you already have a healthy diet, and there are side-effects to consider. Probably, CR will not delay human aging even if it may have some health benefits and protect against some age-related diseases, in particular cancer (de Magalhaes, 2013), and it might slightly extend lifespan. Personally, I would only consider undergoing CR if I had cancer, and even this would have to be carefully considered and discussed with my doctor. As for CR mimetics and resveratrol, like I mention <router-link to="antiaging_science.html">elsewhere</router-link> for other dietary supplements, there is no evidence to suggest that they extend lifespan of model organisms, much less delay human aging. Since we also do not know anything about any long-term effects of taking such products, my opinion based on our present knowledge is that the potential benefits (and there may be some) do not outweigh the potential risks. Recapitulating my conclusion for <router-link to="antiaging_science.html">other similar products</router-link>, no therapy is a replacement for a healthy lifestyle.</p>
@@ -86,7 +96,7 @@
         <hr width="80%" size="1">
 
         <blockquote><p align="justify"><strong>Disclaimer:</strong> The information on this page is for informational purposes only and should not be used as medical advice. If you wish to undergo any of these treatments or take any of the products described in this page, you should talk to your physician. I often make generalizations that might not apply to your particular medical history. As <router-link to="disclaimer.html">with senescence.info</router-link>, use this information at your own risk.</p></blockquote>
-
+        </div>
 
       </b-col>
 
