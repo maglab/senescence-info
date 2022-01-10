@@ -36,7 +36,7 @@ const ReferenceBuilder = () => {
      * RegEx to find reference pattern
      * @type {RegExp}
      */
-    const refMatch = /(?<=\()[^(;)]*,[^(;)]*(?=\))|(?<=; )([^(;)]*,[^(;)]*?)(?=\))|(?<=; )([^(;)]*,[^(;)]*?)(?=;)|(?<=\()([^(;)]*,[^(;)]*?)(?=;)/g;
+    const refMatch = /[^(; ][^(;)]*,[^(;)]\d{4}[A-Za-z0-9 -.]*?(?=\))|[^(; ]([^(;),]*,[^(;),]\d{4}[A-Za-z0-9 -.]*?)(?=;)/g;
     /**
      * Find all references via pattern
      */
