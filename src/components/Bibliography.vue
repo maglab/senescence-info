@@ -738,7 +738,7 @@
         molecular basis of cell cycle and growth control</i>, Stein, G. S., Baserga,
       A., Giordano, A. and Denhardt, D. T. (ed.).  Wiley-Liss, New York, 348-373.</p>
 
-    <p align="justify" id="test">Campisi,
+    <p align="justify">Campisi,
       J. (2000). &quot;Aging, chromatin, and food restriction--connecting the dots.&quot;
       <i>Science</i> <b>289</b>(5487):2062-2063. <a href="http://www.ncbi.nlm.nih.gov/pubmed/11032557">PubMed</a></p>
 
