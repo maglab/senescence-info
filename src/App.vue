@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <shell></shell>
+    <Bibliography />
   </div>
-
 </template>
 
 <script>
 import Shell from './components/Shell.vue'
 import Footer from "./components/AppFooter";
+import Bibliography from "./components/Bibliography";
 
 export default {
   name: 'app',
   components: {
+    Bibliography,
     Footer,
     Shell
   }

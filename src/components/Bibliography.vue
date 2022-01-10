@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="body" v-bind:class="bibliography">
 
 
     <h2>Bibliography</h2>
@@ -17,6 +17,7 @@
 
     <hr size="1" width="80%">
 
+    <div id="references" ref="bib">
 
     <p align="justify">Abele,
       D., Strahl, J., Brey, T., and Philipp, E. E. (2008). &quot;Imperceptible
@@ -737,7 +738,7 @@
         molecular basis of cell cycle and growth control</i>, Stein, G. S., Baserga,
       A., Giordano, A. and Denhardt, D. T. (ed.).  Wiley-Liss, New York, 348-373.</p>
 
-    <p align="justify">Campisi,
+    <p align="justify" id="test">Campisi,
       J. (2000). &quot;Aging, chromatin, and food restriction--connecting the dots.&quot;
       <i>Science</i> <b>289</b>(5487):2062-2063. <a href="http://www.ncbi.nlm.nih.gov/pubmed/11032557">PubMed</a></p>
 
@@ -5701,17 +5702,73 @@
       B. J. (2003). &quot;Linking development and aging.&quot; <i>Sci Aging Knowledge
         Environ</i> <b>2003</b>(47):pe32. <a href="http://www.ncbi.nlm.nih.gov/pubmed/14645858">PubMed</a></p>
 
+    </div>
 
   </div>
 </template>
 
 <script>
-export default {
-  name: "Bibliography"
+
+const BibliographyHandler = () => {
+  /**
+   * Hide bibliography reference on bibliography page
+   */
+  if (document.getElementsByClassName("bibliography")[1]) {
+    document.getElementsByClassName("bibliography")[1].classList.add("hide-bibliography");
+  }
+  /**
+   * Bibliography References
+   * @type {HTMLElement}
+   */
+  const references = document.getElementById("references");
+  if (references) {
+    /**
+     * Get all paragraphs inside references div
+     */
+    const referenceList = document.getElementById("references").querySelectorAll("p");
+    /**
+     * Loop through references
+     */
+    for (let i = 0; i <= referenceList.length; i++) {
+      /**
+       * Dynamically set IDs for anchor links
+       * @type {`ref-${number}`}
+       */
+      if (!referenceList[i]) return;
+      referenceList[i].id = `ref-${i + 1}`;
+    }
+  }
 }
+
+export default {
+  name: "Bibliography",
+  computed: {
+    bibliography: function() {
+      return window.location.href.indexOf("bibliography") > -1 ? 'bibliography' : 'hide-bibliography';
+    }
+  },
+  watch: {
+    $route() {
+      this.$nextTick(this.routeLoaded);
+    }
+  },
+  data() {
+    return {};
+  },
+  methods: {
+    routeLoaded() {
+      BibliographyHandler();
+    }
+  },
+  mounted: () => {
+    BibliographyHandler();
+  }
+}
+
 </script>
 
 <style>
+
 h2 {
   padding-top: 30px;
 }
@@ -5725,6 +5782,12 @@ h2 {
   position: -webkit-sticky;
   position: sticky;
   top: 3%;
+}
+
+.hide-bibliography {
+  height: 0;
+  width: 0;
+  overflow: hidden;
 }
 
 </style>

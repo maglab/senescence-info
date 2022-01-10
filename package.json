@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.6.1",
     "bootstrap-vue": "^2.0.0-rc.9",
     "sticky-sidebar-v2": "^1.1.0",
     "vue": "^2.5.13",
