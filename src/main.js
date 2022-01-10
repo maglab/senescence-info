@@ -70,7 +70,7 @@ const ReferenceBuilder = () => {
       /**
        * Blacklist of words to avoid when filtering
        */
-      const blacklist = ['reviewed', 'PubMed', 'instance', 'arguments'];
+      const blacklist = ['reviewed', 'pubmed', 'instance', 'arguments', 'overview', 'adapted', 'from'];
       /**
        * Break link text into array
        * Remove symbols and separate by spaces
@@ -81,7 +81,7 @@ const ReferenceBuilder = () => {
       /**
        * Remove words under 3 letters in length & check blacklist
        */
-      matchArray = matchArray.filter((match) => match.length > 3 && !blacklist.includes(match));
+      matchArray = matchArray.filter((match) => match.length > 3 && !blacklist.includes(match.toLowerCase()));
       /**
        * Search through references to find possible matches
        */
@@ -97,7 +97,7 @@ const ReferenceBuilder = () => {
           /**
            * Remove words under 3 letters in length & check blacklist
            */
-          referenceArray = referenceArray.filter((match) => match.length > 3 && !blacklist.includes(match));
+          referenceArray = referenceArray.filter((match) => match.length > 3 && !blacklist.includes(match.toLowerCase()));
           /**
            * Returns whether or not the *entire* matchArray
            * is included inside of the referenceArray
