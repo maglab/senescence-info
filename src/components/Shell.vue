@@ -3,7 +3,7 @@
 
         <app-header></app-header>
       <br>
-        <router-view></router-view>
+        <router-view :key="$route.fullPath"></router-view>
         <app-footer></app-footer>
     </div>
 </template>
